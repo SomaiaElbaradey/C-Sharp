@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "xt4C9m2vOiZ3y3Q5jIx61isQAORVrT2l4G4SG5A5+OLcnJy9iq86xHm4hoCu8LEhBQMVnOXfi3KK650INDNgrg==",
+  "success": true,
+  "projectFilePath": "D:\\ITI\\courses\\CS\\CS_Labs\\Lab03\\Employee\\EmployeeNS.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Somaya\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\Somaya\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

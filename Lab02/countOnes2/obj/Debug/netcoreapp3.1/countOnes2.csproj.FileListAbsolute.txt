@@ -1,0 +1,13 @@
+D:\ITI\courses\CS\CS_Labs\Lab02\countOnes2\bin\Debug\netcoreapp3.1\countOnes2.exe
+D:\ITI\courses\CS\CS_Labs\Lab02\countOnes2\bin\Debug\netcoreapp3.1\countOnes2.deps.json
+D:\ITI\courses\CS\CS_Labs\Lab02\countOnes2\bin\Debug\netcoreapp3.1\countOnes2.runtimeconfig.json
+D:\ITI\courses\CS\CS_Labs\Lab02\countOnes2\bin\Debug\netcoreapp3.1\countOnes2.runtimeconfig.dev.json
+D:\ITI\courses\CS\CS_Labs\Lab02\countOnes2\bin\Debug\netcoreapp3.1\countOnes2.dll
+D:\ITI\courses\CS\CS_Labs\Lab02\countOnes2\bin\Debug\netcoreapp3.1\countOnes2.pdb
+D:\ITI\courses\CS\CS_Labs\Lab02\countOnes2\obj\Debug\netcoreapp3.1\countOnes2.csprojAssemblyReference.cache
+D:\ITI\courses\CS\CS_Labs\Lab02\countOnes2\obj\Debug\netcoreapp3.1\countOnes2.AssemblyInfoInputs.cache
+D:\ITI\courses\CS\CS_Labs\Lab02\countOnes2\obj\Debug\netcoreapp3.1\countOnes2.AssemblyInfo.cs
+D:\ITI\courses\CS\CS_Labs\Lab02\countOnes2\obj\Debug\netcoreapp3.1\countOnes2.csproj.CoreCompileInputs.cache
+D:\ITI\courses\CS\CS_Labs\Lab02\countOnes2\obj\Debug\netcoreapp3.1\countOnes2.dll
+D:\ITI\courses\CS\CS_Labs\Lab02\countOnes2\obj\Debug\netcoreapp3.1\countOnes2.pdb
+D:\ITI\courses\CS\CS_Labs\Lab02\countOnes2\obj\Debug\netcoreapp3.1\countOnes2.genruntimeconfig.cache

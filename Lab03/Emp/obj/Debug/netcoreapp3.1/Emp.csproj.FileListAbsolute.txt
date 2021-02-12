@@ -1,0 +1,16 @@
+D:\ITI\courses\CS\CS_Labs\Lab03\Emp\bin\Debug\netcoreapp3.1\Emp.exe
+D:\ITI\courses\CS\CS_Labs\Lab03\Emp\bin\Debug\netcoreapp3.1\Emp.deps.json
+D:\ITI\courses\CS\CS_Labs\Lab03\Emp\bin\Debug\netcoreapp3.1\Emp.runtimeconfig.json
+D:\ITI\courses\CS\CS_Labs\Lab03\Emp\bin\Debug\netcoreapp3.1\Emp.runtimeconfig.dev.json
+D:\ITI\courses\CS\CS_Labs\Lab03\Emp\bin\Debug\netcoreapp3.1\Emp.dll
+D:\ITI\courses\CS\CS_Labs\Lab03\Emp\bin\Debug\netcoreapp3.1\Emp.pdb
+D:\ITI\courses\CS\CS_Labs\Lab03\Emp\bin\Debug\netcoreapp3.1\EmployeeNS.dll
+D:\ITI\courses\CS\CS_Labs\Lab03\Emp\bin\Debug\netcoreapp3.1\EmployeeNS.pdb
+D:\ITI\courses\CS\CS_Labs\Lab03\Emp\obj\Debug\netcoreapp3.1\Emp.csprojAssemblyReference.cache
+D:\ITI\courses\CS\CS_Labs\Lab03\Emp\obj\Debug\netcoreapp3.1\Emp.AssemblyInfoInputs.cache
+D:\ITI\courses\CS\CS_Labs\Lab03\Emp\obj\Debug\netcoreapp3.1\Emp.AssemblyInfo.cs
+D:\ITI\courses\CS\CS_Labs\Lab03\Emp\obj\Debug\netcoreapp3.1\Emp.csproj.CoreCompileInputs.cache
+D:\ITI\courses\CS\CS_Labs\Lab03\Emp\obj\Debug\netcoreapp3.1\Emp.csproj.CopyComplete
+D:\ITI\courses\CS\CS_Labs\Lab03\Emp\obj\Debug\netcoreapp3.1\Emp.dll
+D:\ITI\courses\CS\CS_Labs\Lab03\Emp\obj\Debug\netcoreapp3.1\Emp.pdb
+D:\ITI\courses\CS\CS_Labs\Lab03\Emp\obj\Debug\netcoreapp3.1\Emp.genruntimeconfig.cache

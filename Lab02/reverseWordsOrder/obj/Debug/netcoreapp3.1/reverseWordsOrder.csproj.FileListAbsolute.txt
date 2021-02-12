@@ -1,0 +1,13 @@
+D:\ITI\courses\CS\CS_Labs\Lab02\reverseWordsOrder\bin\Debug\netcoreapp3.1\reverseWordsOrder.exe
+D:\ITI\courses\CS\CS_Labs\Lab02\reverseWordsOrder\bin\Debug\netcoreapp3.1\reverseWordsOrder.deps.json
+D:\ITI\courses\CS\CS_Labs\Lab02\reverseWordsOrder\bin\Debug\netcoreapp3.1\reverseWordsOrder.runtimeconfig.json
+D:\ITI\courses\CS\CS_Labs\Lab02\reverseWordsOrder\bin\Debug\netcoreapp3.1\reverseWordsOrder.runtimeconfig.dev.json
+D:\ITI\courses\CS\CS_Labs\Lab02\reverseWordsOrder\bin\Debug\netcoreapp3.1\reverseWordsOrder.dll
+D:\ITI\courses\CS\CS_Labs\Lab02\reverseWordsOrder\bin\Debug\netcoreapp3.1\reverseWordsOrder.pdb
+D:\ITI\courses\CS\CS_Labs\Lab02\reverseWordsOrder\obj\Debug\netcoreapp3.1\reverseWordsOrder.csprojAssemblyReference.cache
+D:\ITI\courses\CS\CS_Labs\Lab02\reverseWordsOrder\obj\Debug\netcoreapp3.1\reverseWordsOrder.AssemblyInfoInputs.cache
+D:\ITI\courses\CS\CS_Labs\Lab02\reverseWordsOrder\obj\Debug\netcoreapp3.1\reverseWordsOrder.AssemblyInfo.cs
+D:\ITI\courses\CS\CS_Labs\Lab02\reverseWordsOrder\obj\Debug\netcoreapp3.1\reverseWordsOrder.csproj.CoreCompileInputs.cache
+D:\ITI\courses\CS\CS_Labs\Lab02\reverseWordsOrder\obj\Debug\netcoreapp3.1\reverseWordsOrder.dll
+D:\ITI\courses\CS\CS_Labs\Lab02\reverseWordsOrder\obj\Debug\netcoreapp3.1\reverseWordsOrder.pdb
+D:\ITI\courses\CS\CS_Labs\Lab02\reverseWordsOrder\obj\Debug\netcoreapp3.1\reverseWordsOrder.genruntimeconfig.cache

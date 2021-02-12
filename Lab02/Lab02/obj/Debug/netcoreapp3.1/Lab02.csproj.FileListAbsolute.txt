@@ -1,0 +1,13 @@
+D:\ITI\courses\CS\CS_Labs\Lab02\Lab02\bin\Debug\netcoreapp3.1\Lab02.exe
+D:\ITI\courses\CS\CS_Labs\Lab02\Lab02\bin\Debug\netcoreapp3.1\Lab02.deps.json
+D:\ITI\courses\CS\CS_Labs\Lab02\Lab02\bin\Debug\netcoreapp3.1\Lab02.runtimeconfig.json
+D:\ITI\courses\CS\CS_Labs\Lab02\Lab02\bin\Debug\netcoreapp3.1\Lab02.runtimeconfig.dev.json
+D:\ITI\courses\CS\CS_Labs\Lab02\Lab02\bin\Debug\netcoreapp3.1\Lab02.dll
+D:\ITI\courses\CS\CS_Labs\Lab02\Lab02\bin\Debug\netcoreapp3.1\Lab02.pdb
+D:\ITI\courses\CS\CS_Labs\Lab02\Lab02\obj\Debug\netcoreapp3.1\Lab02.csprojAssemblyReference.cache
+D:\ITI\courses\CS\CS_Labs\Lab02\Lab02\obj\Debug\netcoreapp3.1\Lab02.AssemblyInfoInputs.cache
+D:\ITI\courses\CS\CS_Labs\Lab02\Lab02\obj\Debug\netcoreapp3.1\Lab02.AssemblyInfo.cs
+D:\ITI\courses\CS\CS_Labs\Lab02\Lab02\obj\Debug\netcoreapp3.1\Lab02.csproj.CoreCompileInputs.cache
+D:\ITI\courses\CS\CS_Labs\Lab02\Lab02\obj\Debug\netcoreapp3.1\Lab02.dll
+D:\ITI\courses\CS\CS_Labs\Lab02\Lab02\obj\Debug\netcoreapp3.1\Lab02.pdb
+D:\ITI\courses\CS\CS_Labs\Lab02\Lab02\obj\Debug\netcoreapp3.1\Lab02.genruntimeconfig.cache
