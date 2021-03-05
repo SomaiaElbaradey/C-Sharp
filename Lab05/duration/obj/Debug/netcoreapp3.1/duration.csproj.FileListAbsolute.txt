@@ -1,0 +1,13 @@
+D:\ITI\courses\CS\CS_Labs\Lab05\duration\obj\Debug\netcoreapp3.1\duration.csprojAssemblyReference.cache
+D:\ITI\courses\CS\CS_Labs\Lab05\duration\obj\Debug\netcoreapp3.1\duration.AssemblyInfoInputs.cache
+D:\ITI\courses\CS\CS_Labs\Lab05\duration\obj\Debug\netcoreapp3.1\duration.AssemblyInfo.cs
+D:\ITI\courses\CS\CS_Labs\Lab05\duration\obj\Debug\netcoreapp3.1\duration.csproj.CoreCompileInputs.cache
+D:\ITI\courses\CS\CS_Labs\Lab05\duration\bin\Debug\netcoreapp3.1\duration.exe
+D:\ITI\courses\CS\CS_Labs\Lab05\duration\bin\Debug\netcoreapp3.1\duration.deps.json
+D:\ITI\courses\CS\CS_Labs\Lab05\duration\bin\Debug\netcoreapp3.1\duration.runtimeconfig.json
+D:\ITI\courses\CS\CS_Labs\Lab05\duration\bin\Debug\netcoreapp3.1\duration.runtimeconfig.dev.json
+D:\ITI\courses\CS\CS_Labs\Lab05\duration\bin\Debug\netcoreapp3.1\duration.dll
+D:\ITI\courses\CS\CS_Labs\Lab05\duration\bin\Debug\netcoreapp3.1\duration.pdb
+D:\ITI\courses\CS\CS_Labs\Lab05\duration\obj\Debug\netcoreapp3.1\duration.dll
+D:\ITI\courses\CS\CS_Labs\Lab05\duration\obj\Debug\netcoreapp3.1\duration.pdb
+D:\ITI\courses\CS\CS_Labs\Lab05\duration\obj\Debug\netcoreapp3.1\duration.genruntimeconfig.cache
