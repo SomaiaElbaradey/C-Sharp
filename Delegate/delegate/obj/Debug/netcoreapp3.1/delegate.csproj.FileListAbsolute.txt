@@ -1,0 +1,13 @@
+D:\ITI\courses\CS\CS_Labs\Lab07\delegate\bin\Debug\netcoreapp3.1\delegate.exe
+D:\ITI\courses\CS\CS_Labs\Lab07\delegate\bin\Debug\netcoreapp3.1\delegate.deps.json
+D:\ITI\courses\CS\CS_Labs\Lab07\delegate\bin\Debug\netcoreapp3.1\delegate.runtimeconfig.json
+D:\ITI\courses\CS\CS_Labs\Lab07\delegate\bin\Debug\netcoreapp3.1\delegate.runtimeconfig.dev.json
+D:\ITI\courses\CS\CS_Labs\Lab07\delegate\bin\Debug\netcoreapp3.1\delegate.dll
+D:\ITI\courses\CS\CS_Labs\Lab07\delegate\bin\Debug\netcoreapp3.1\delegate.pdb
+D:\ITI\courses\CS\CS_Labs\Lab07\delegate\obj\Debug\netcoreapp3.1\delegate.csprojAssemblyReference.cache
+D:\ITI\courses\CS\CS_Labs\Lab07\delegate\obj\Debug\netcoreapp3.1\delegate.AssemblyInfoInputs.cache
+D:\ITI\courses\CS\CS_Labs\Lab07\delegate\obj\Debug\netcoreapp3.1\delegate.AssemblyInfo.cs
+D:\ITI\courses\CS\CS_Labs\Lab07\delegate\obj\Debug\netcoreapp3.1\delegate.csproj.CoreCompileInputs.cache
+D:\ITI\courses\CS\CS_Labs\Lab07\delegate\obj\Debug\netcoreapp3.1\delegate.dll
+D:\ITI\courses\CS\CS_Labs\Lab07\delegate\obj\Debug\netcoreapp3.1\delegate.pdb
+D:\ITI\courses\CS\CS_Labs\Lab07\delegate\obj\Debug\netcoreapp3.1\delegate.genruntimeconfig.cache
