@@ -1,0 +1,13 @@
+D:\ITI\courses\CS\CS_Labs\Lab04\myNIC\bin\Debug\netcoreapp3.1\myNIC.exe
+D:\ITI\courses\CS\CS_Labs\Lab04\myNIC\bin\Debug\netcoreapp3.1\myNIC.deps.json
+D:\ITI\courses\CS\CS_Labs\Lab04\myNIC\bin\Debug\netcoreapp3.1\myNIC.runtimeconfig.json
+D:\ITI\courses\CS\CS_Labs\Lab04\myNIC\bin\Debug\netcoreapp3.1\myNIC.runtimeconfig.dev.json
+D:\ITI\courses\CS\CS_Labs\Lab04\myNIC\bin\Debug\netcoreapp3.1\myNIC.dll
+D:\ITI\courses\CS\CS_Labs\Lab04\myNIC\bin\Debug\netcoreapp3.1\myNIC.pdb
+D:\ITI\courses\CS\CS_Labs\Lab04\myNIC\obj\Debug\netcoreapp3.1\myNIC.csprojAssemblyReference.cache
+D:\ITI\courses\CS\CS_Labs\Lab04\myNIC\obj\Debug\netcoreapp3.1\myNIC.AssemblyInfoInputs.cache
+D:\ITI\courses\CS\CS_Labs\Lab04\myNIC\obj\Debug\netcoreapp3.1\myNIC.AssemblyInfo.cs
+D:\ITI\courses\CS\CS_Labs\Lab04\myNIC\obj\Debug\netcoreapp3.1\myNIC.csproj.CoreCompileInputs.cache
+D:\ITI\courses\CS\CS_Labs\Lab04\myNIC\obj\Debug\netcoreapp3.1\myNIC.dll
+D:\ITI\courses\CS\CS_Labs\Lab04\myNIC\obj\Debug\netcoreapp3.1\myNIC.pdb
+D:\ITI\courses\CS\CS_Labs\Lab04\myNIC\obj\Debug\netcoreapp3.1\myNIC.genruntimeconfig.cache

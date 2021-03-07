@@ -1,0 +1,13 @@
+D:\ITI\courses\CS\CS_Labs\Lab04\point\bin\Debug\netcoreapp3.1\point.exe
+D:\ITI\courses\CS\CS_Labs\Lab04\point\bin\Debug\netcoreapp3.1\point.deps.json
+D:\ITI\courses\CS\CS_Labs\Lab04\point\bin\Debug\netcoreapp3.1\point.runtimeconfig.json
+D:\ITI\courses\CS\CS_Labs\Lab04\point\bin\Debug\netcoreapp3.1\point.runtimeconfig.dev.json
+D:\ITI\courses\CS\CS_Labs\Lab04\point\bin\Debug\netcoreapp3.1\point.dll
+D:\ITI\courses\CS\CS_Labs\Lab04\point\bin\Debug\netcoreapp3.1\point.pdb
+D:\ITI\courses\CS\CS_Labs\Lab04\point\obj\Debug\netcoreapp3.1\point.csprojAssemblyReference.cache
+D:\ITI\courses\CS\CS_Labs\Lab04\point\obj\Debug\netcoreapp3.1\point.AssemblyInfoInputs.cache
+D:\ITI\courses\CS\CS_Labs\Lab04\point\obj\Debug\netcoreapp3.1\point.AssemblyInfo.cs
+D:\ITI\courses\CS\CS_Labs\Lab04\point\obj\Debug\netcoreapp3.1\point.csproj.CoreCompileInputs.cache
+D:\ITI\courses\CS\CS_Labs\Lab04\point\obj\Debug\netcoreapp3.1\point.dll
+D:\ITI\courses\CS\CS_Labs\Lab04\point\obj\Debug\netcoreapp3.1\point.pdb
+D:\ITI\courses\CS\CS_Labs\Lab04\point\obj\Debug\netcoreapp3.1\point.genruntimeconfig.cache
