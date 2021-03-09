@@ -1,0 +1,13 @@
+D:\ITI\courses\CS\CS_Labs\Lab08\company\bin\Debug\netcoreapp3.1\company.exe
+D:\ITI\courses\CS\CS_Labs\Lab08\company\bin\Debug\netcoreapp3.1\company.deps.json
+D:\ITI\courses\CS\CS_Labs\Lab08\company\bin\Debug\netcoreapp3.1\company.runtimeconfig.json
+D:\ITI\courses\CS\CS_Labs\Lab08\company\bin\Debug\netcoreapp3.1\company.runtimeconfig.dev.json
+D:\ITI\courses\CS\CS_Labs\Lab08\company\bin\Debug\netcoreapp3.1\company.dll
+D:\ITI\courses\CS\CS_Labs\Lab08\company\bin\Debug\netcoreapp3.1\company.pdb
+D:\ITI\courses\CS\CS_Labs\Lab08\company\obj\Debug\netcoreapp3.1\company.csprojAssemblyReference.cache
+D:\ITI\courses\CS\CS_Labs\Lab08\company\obj\Debug\netcoreapp3.1\company.AssemblyInfoInputs.cache
+D:\ITI\courses\CS\CS_Labs\Lab08\company\obj\Debug\netcoreapp3.1\company.AssemblyInfo.cs
+D:\ITI\courses\CS\CS_Labs\Lab08\company\obj\Debug\netcoreapp3.1\company.csproj.CoreCompileInputs.cache
+D:\ITI\courses\CS\CS_Labs\Lab08\company\obj\Debug\netcoreapp3.1\company.dll
+D:\ITI\courses\CS\CS_Labs\Lab08\company\obj\Debug\netcoreapp3.1\company.pdb
+D:\ITI\courses\CS\CS_Labs\Lab08\company\obj\Debug\netcoreapp3.1\company.genruntimeconfig.cache
