@@ -5,7 +5,7 @@ VisualStudioVersion = 16.0.31005.135
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "calculateAge", "calculateAge\calculateAge.csproj", "{D883F910-7B92-4E2D-A118-B6B88F1CEC85}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "note", "note\note.csproj", "{7C77F8DA-7CB5-4C2F-B63A-7BDDC90F703F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "note", "note\note.csproj", "{C96FF43D-671C-4205-A6A4-827E93EE6150}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +17,10 @@ Global
 		{D883F910-7B92-4E2D-A118-B6B88F1CEC85}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D883F910-7B92-4E2D-A118-B6B88F1CEC85}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D883F910-7B92-4E2D-A118-B6B88F1CEC85}.Release|Any CPU.Build.0 = Release|Any CPU
-		{7C77F8DA-7CB5-4C2F-B63A-7BDDC90F703F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{7C77F8DA-7CB5-4C2F-B63A-7BDDC90F703F}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{7C77F8DA-7CB5-4C2F-B63A-7BDDC90F703F}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{7C77F8DA-7CB5-4C2F-B63A-7BDDC90F703F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C96FF43D-671C-4205-A6A4-827E93EE6150}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C96FF43D-671C-4205-A6A4-827E93EE6150}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C96FF43D-671C-4205-A6A4-827E93EE6150}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C96FF43D-671C-4205-A6A4-827E93EE6150}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
