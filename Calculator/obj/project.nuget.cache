@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "WztPNrbL9pjmJ5OzQUVkvGucEwmiWGtnS8wcZUuo5MkK7H75GM4HSqD9ISfWhENnwHkedfC9B++Wvpo+i0/q+Q==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Somaya\\Downloads\\Calculator\\Calculator.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Somaya\\.nuget\\packages\\mathparser.org-mxparser\\4.4.2\\mathparser.org-mxparser.4.4.2.nupkg.sha512"
+  ],
+  "logs": []
+}
