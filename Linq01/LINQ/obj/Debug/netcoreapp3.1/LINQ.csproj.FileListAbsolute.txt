@@ -1,0 +1,13 @@
+D:\ITI\courses\LINQ\Labs\Lab01\LINQ\bin\Debug\netcoreapp3.1\LINQ.exe
+D:\ITI\courses\LINQ\Labs\Lab01\LINQ\bin\Debug\netcoreapp3.1\LINQ.deps.json
+D:\ITI\courses\LINQ\Labs\Lab01\LINQ\bin\Debug\netcoreapp3.1\LINQ.runtimeconfig.json
+D:\ITI\courses\LINQ\Labs\Lab01\LINQ\bin\Debug\netcoreapp3.1\LINQ.runtimeconfig.dev.json
+D:\ITI\courses\LINQ\Labs\Lab01\LINQ\bin\Debug\netcoreapp3.1\LINQ.dll
+D:\ITI\courses\LINQ\Labs\Lab01\LINQ\bin\Debug\netcoreapp3.1\LINQ.pdb
+D:\ITI\courses\LINQ\Labs\Lab01\LINQ\obj\Debug\netcoreapp3.1\LINQ.csprojAssemblyReference.cache
+D:\ITI\courses\LINQ\Labs\Lab01\LINQ\obj\Debug\netcoreapp3.1\LINQ.AssemblyInfoInputs.cache
+D:\ITI\courses\LINQ\Labs\Lab01\LINQ\obj\Debug\netcoreapp3.1\LINQ.AssemblyInfo.cs
+D:\ITI\courses\LINQ\Labs\Lab01\LINQ\obj\Debug\netcoreapp3.1\LINQ.csproj.CoreCompileInputs.cache
+D:\ITI\courses\LINQ\Labs\Lab01\LINQ\obj\Debug\netcoreapp3.1\LINQ.dll
+D:\ITI\courses\LINQ\Labs\Lab01\LINQ\obj\Debug\netcoreapp3.1\LINQ.pdb
+D:\ITI\courses\LINQ\Labs\Lab01\LINQ\obj\Debug\netcoreapp3.1\LINQ.genruntimeconfig.cache

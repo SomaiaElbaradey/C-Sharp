@@ -1,0 +1,12 @@
+D:\ITI\courses\LINQ\Labs\Lab02\company\bin\Debug\company.exe.config
+D:\ITI\courses\LINQ\Labs\Lab02\company\bin\Debug\company.exe
+D:\ITI\courses\LINQ\Labs\Lab02\company\bin\Debug\company.pdb
+D:\ITI\courses\LINQ\Labs\Lab02\company\bin\Debug\EntityFramework.dll
+D:\ITI\courses\LINQ\Labs\Lab02\company\bin\Debug\EntityFramework.SqlServer.dll
+D:\ITI\courses\LINQ\Labs\Lab02\company\bin\Debug\EntityFramework.xml
+D:\ITI\courses\LINQ\Labs\Lab02\company\bin\Debug\EntityFramework.SqlServer.xml
+D:\ITI\courses\LINQ\Labs\Lab02\company\obj\Debug\company.csprojAssemblyReference.cache
+D:\ITI\courses\LINQ\Labs\Lab02\company\obj\Debug\company.csproj.CoreCompileInputs.cache
+D:\ITI\courses\LINQ\Labs\Lab02\company\obj\Debug\company.csproj.CopyComplete
+D:\ITI\courses\LINQ\Labs\Lab02\company\obj\Debug\company.exe
+D:\ITI\courses\LINQ\Labs\Lab02\company\obj\Debug\company.pdb
