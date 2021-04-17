@@ -23,11 +23,11 @@ namespace HotalManagement
         {
             if (usernameTextBox.Text == string.Empty)
             {
-                usernameLabel.Visible = true;
+                usernameLabel.Visible = false;
             }
             if (usernameTextBox.Text != "Username" && usernameTextBox.Text != string.Empty)
             {
-                usernameLabel.Visible = false;
+                usernameLabel.Visible = true;
             }
         }
 
@@ -35,11 +35,11 @@ namespace HotalManagement
         {
             if (passwordTextBox.Text == string.Empty)
             {
-                passwordLabel.Visible = true;
+                passwordLabel.Visible = false;
             }
             if (passwordTextBox.Text != "Password" && passwordTextBox.Text != string.Empty)
             {
-                passwordLabel.Visible = false;
+                passwordLabel.Visible = true;
             }
         }
 
@@ -101,5 +101,10 @@ namespace HotalManagement
             return success;
         }
 
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            passwordLabel.Visible = false;
+            usernameLabel.Visible = false;
+        }
     }
 }

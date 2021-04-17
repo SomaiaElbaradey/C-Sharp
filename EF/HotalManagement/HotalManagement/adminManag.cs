@@ -29,6 +29,8 @@ namespace HotalManagement
             fillResCombo();
             fieldsCLS();
         }
+
+        //load data for reservation for editing
         private void LoadData(int id)
         {
             if (id != 0)
@@ -84,6 +86,7 @@ namespace HotalManagement
             else MessageBox.Show("You've selected empty data! please try again.", "Error!");
         }
 
+        //first load for combos, default state
         private void adminManag_Load(object sender, EventArgs e)
         {
             deleteBtn.Visible = false;
@@ -99,6 +102,7 @@ namespace HotalManagement
             LoadData(res);
         }
 
+        //update existing reservation
         private void updateBtn_Click(object sender, EventArgs e)
         {
             getFoodInfo();
@@ -169,6 +173,7 @@ namespace HotalManagement
             sumbitBtn.Visible = true;
         }
 
+        //open food and menu form with default data or reserved in update 
         private int lunch = 0; private int breakfast = 0; private int dinner = 0;
         private int cleaning = 0; private int towel = 0; private int surprise = 0;
         private int foodBill = 0;
@@ -190,6 +195,7 @@ namespace HotalManagement
             userfood.Show();
         }
 
+        //returns the final bill
         private float calculateBill()
         {
             int guestBill = 0;
@@ -207,6 +213,7 @@ namespace HotalManagement
             return (foodBill + guestBill + serviceBill + roomBill);
         }
 
+        //clean fields
         private void fieldsCLS()
         {
             firstname.Text = "";
@@ -240,6 +247,7 @@ namespace HotalManagement
             hideCredit();
         }
 
+        //add new reservation
         private void sumbitBtn_Click(object sender, EventArgs e)
         {
             getFoodInfo();
@@ -308,6 +316,7 @@ namespace HotalManagement
             else MessageBox.Show("You've selected empty data! please try again.", "Error!");
         }
 
+        //get food info and calculate the bill
         private void getFoodInfo()
         {
             if (userfood != null)
@@ -385,6 +394,7 @@ namespace HotalManagement
             cardType.DataSource = cards;
         }
 
+        //handle cash and credit appearance
         private void cash_CheckedChanged(object sender, EventArgs e)
         {
             hideCredit();
@@ -421,7 +431,6 @@ namespace HotalManagement
             Context.Reservations.Remove(reserv);
             Context.SaveChanges();
             fieldsCLS();
-            fillResCombo();
             msg.Text = "reservation has been deleted successfully";
         }
     }

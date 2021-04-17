@@ -54,7 +54,7 @@ namespace HotalManagement
             // passwordTextBox
             // 
             this.passwordTextBox.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(238)))), ((int)(((byte)(204)))));
-            this.passwordTextBox.Location = new System.Drawing.Point(75, 263);
+            this.passwordTextBox.Location = new System.Drawing.Point(75, 227);
             this.passwordTextBox.Margin = new System.Windows.Forms.Padding(4);
             this.passwordTextBox.Multiline = true;
             this.passwordTextBox.Name = "passwordTextBox";
@@ -69,7 +69,7 @@ namespace HotalManagement
             this.signinButton.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.signinButton.Font = new System.Drawing.Font("Britannic Bold", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.signinButton.ForeColor = System.Drawing.Color.White;
-            this.signinButton.Location = new System.Drawing.Point(75, 331);
+            this.signinButton.Location = new System.Drawing.Point(75, 289);
             this.signinButton.Name = "signinButton";
             this.signinButton.Size = new System.Drawing.Size(156, 39);
             this.signinButton.TabIndex = 3;
@@ -82,7 +82,7 @@ namespace HotalManagement
             this.usernameLabel.AutoSize = true;
             this.usernameLabel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(190)))), ((int)(((byte)(46)))));
             this.usernameLabel.Font = new System.Drawing.Font("Britannic Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.usernameLabel.Location = new System.Drawing.Point(75, 113);
+            this.usernameLabel.Location = new System.Drawing.Point(75, 128);
             this.usernameLabel.Name = "usernameLabel";
             this.usernameLabel.Size = new System.Drawing.Size(99, 22);
             this.usernameLabel.TabIndex = 4;
@@ -93,7 +93,7 @@ namespace HotalManagement
             this.passwordLabel.AutoSize = true;
             this.passwordLabel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(190)))), ((int)(((byte)(46)))));
             this.passwordLabel.Font = new System.Drawing.Font("Britannic Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.passwordLabel.Location = new System.Drawing.Point(75, 228);
+            this.passwordLabel.Location = new System.Drawing.Point(75, 201);
             this.passwordLabel.Name = "passwordLabel";
             this.passwordLabel.Size = new System.Drawing.Size(97, 22);
             this.passwordLabel.TabIndex = 5;
@@ -137,6 +137,7 @@ namespace HotalManagement
             this.Controls.Add(this.pictureBox1);
             this.Name = "Form1";
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
