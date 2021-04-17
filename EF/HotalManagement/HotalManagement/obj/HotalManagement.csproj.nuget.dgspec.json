@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\ITI\\courses\\Entity Framework .core\\labs\\HotalManagement\\HotalManagement\\HotalManagement.csproj": {}
+    "D:\\ITI\\courses\\16-Visual CS.Net\\CS_Labs\\git\\EF\\HotalManagement\\HotalManagement\\HotalManagement.csproj": {}
   },
   "projects": {
-    "D:\\ITI\\courses\\Entity Framework .core\\labs\\HotalManagement\\HotalManagement\\HotalManagement.csproj": {
+    "D:\\ITI\\courses\\16-Visual CS.Net\\CS_Labs\\git\\EF\\HotalManagement\\HotalManagement\\HotalManagement.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\ITI\\courses\\Entity Framework .core\\labs\\HotalManagement\\HotalManagement\\HotalManagement.csproj",
+        "projectUniqueName": "D:\\ITI\\courses\\16-Visual CS.Net\\CS_Labs\\git\\EF\\HotalManagement\\HotalManagement\\HotalManagement.csproj",
         "projectName": "HotalManagement",
-        "projectPath": "D:\\ITI\\courses\\Entity Framework .core\\labs\\HotalManagement\\HotalManagement\\HotalManagement.csproj",
+        "projectPath": "D:\\ITI\\courses\\16-Visual CS.Net\\CS_Labs\\git\\EF\\HotalManagement\\HotalManagement\\HotalManagement.csproj",
         "packagesPath": "C:\\Users\\Somaya\\.nuget\\packages\\",
-        "outputPath": "D:\\ITI\\courses\\Entity Framework .core\\labs\\HotalManagement\\HotalManagement\\obj\\",
+        "outputPath": "D:\\ITI\\courses\\16-Visual CS.Net\\CS_Labs\\git\\EF\\HotalManagement\\HotalManagement\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Somaya\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,8 +28,8 @@
           "net5.0-windows7.0": {
             "targetAlias": "net5.0-windows",
             "projectReferences": {
-              "D:\\ITI\\courses\\Entity Framework .core\\labs\\HotalManagement\\HotelManag\\HotelManag.csproj": {
-                "projectPath": "D:\\ITI\\courses\\Entity Framework .core\\labs\\HotalManagement\\HotelManag\\HotelManag.csproj"
+              "D:\\ITI\\courses\\16-Visual CS.Net\\CS_Labs\\git\\EF\\HotalManagement\\HotelManag\\HotelManag.csproj": {
+                "projectPath": "D:\\ITI\\courses\\16-Visual CS.Net\\CS_Labs\\git\\EF\\HotalManagement\\HotelManag\\HotelManag.csproj"
               }
             }
           }
@@ -83,14 +83,14 @@
         }
       }
     },
-    "D:\\ITI\\courses\\Entity Framework .core\\labs\\HotalManagement\\HotelManag\\HotelManag.csproj": {
+    "D:\\ITI\\courses\\16-Visual CS.Net\\CS_Labs\\git\\EF\\HotalManagement\\HotelManag\\HotelManag.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\ITI\\courses\\Entity Framework .core\\labs\\HotalManagement\\HotelManag\\HotelManag.csproj",
+        "projectUniqueName": "D:\\ITI\\courses\\16-Visual CS.Net\\CS_Labs\\git\\EF\\HotalManagement\\HotelManag\\HotelManag.csproj",
         "projectName": "HotelManag",
-        "projectPath": "D:\\ITI\\courses\\Entity Framework .core\\labs\\HotalManagement\\HotelManag\\HotelManag.csproj",
+        "projectPath": "D:\\ITI\\courses\\16-Visual CS.Net\\CS_Labs\\git\\EF\\HotalManagement\\HotelManag\\HotelManag.csproj",
         "packagesPath": "C:\\Users\\Somaya\\.nuget\\packages\\",
-        "outputPath": "D:\\ITI\\courses\\Entity Framework .core\\labs\\HotalManagement\\HotelManag\\obj\\",
+        "outputPath": "D:\\ITI\\courses\\16-Visual CS.Net\\CS_Labs\\git\\EF\\HotalManagement\\HotelManag\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Somaya\\AppData\\Roaming\\NuGet\\NuGet.Config",

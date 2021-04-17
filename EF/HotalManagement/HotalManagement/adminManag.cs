@@ -46,6 +46,10 @@ namespace HotalManagement
                     else if (reserv.PaymentType == "credit")
                     {
                         credit.Checked = true;
+                        cardNumber.Text = reserv.CardNumber;
+                        exp.Text = reserv.CardExp;
+                        cvc.Text = reserv.CardCvc;
+                        cardType.Text = reserv.CardType;
                         hideCash();
                     }
                     apt.SelectedItem = reserv.AptSuite;

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "GommQxZoj3ksor/jRe0lYl3O8NDv7Q+sw5DC9QH2vd8yB3P3CGLXPKXh4xpQ5I/wrjzImLGNcTOTUfdc0QDwnQ==",
+  "dgSpecHash": "tcd05hxmYBVKPVTVmWawuBGmQ2vk3bkP6xQXRjqRXHTzbe7DvEIkCsHyXSRYsqr21bMyOMq2diRHrQ/O1mgueQ==",
   "success": true,
-  "projectFilePath": "D:\\ITI\\courses\\Entity Framework .core\\labs\\HotalManagement\\HotalManagement\\HotalManagement.csproj",
+  "projectFilePath": "D:\\ITI\\courses\\16-Visual CS.Net\\CS_Labs\\git\\EF\\HotalManagement\\HotalManagement\\HotalManagement.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Somaya\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Somaya\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",

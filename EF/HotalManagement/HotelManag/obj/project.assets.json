@@ -5766,11 +5766,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\ITI\\courses\\Entity Framework .core\\labs\\HotalManagement\\HotelManag\\HotelManag.csproj",
+      "projectUniqueName": "D:\\ITI\\courses\\16-Visual CS.Net\\CS_Labs\\git\\EF\\HotalManagement\\HotelManag\\HotelManag.csproj",
       "projectName": "HotelManag",
-      "projectPath": "D:\\ITI\\courses\\Entity Framework .core\\labs\\HotalManagement\\HotelManag\\HotelManag.csproj",
+      "projectPath": "D:\\ITI\\courses\\16-Visual CS.Net\\CS_Labs\\git\\EF\\HotalManagement\\HotelManag\\HotelManag.csproj",
       "packagesPath": "C:\\Users\\Somaya\\.nuget\\packages\\",
-      "outputPath": "D:\\ITI\\courses\\Entity Framework .core\\labs\\HotalManagement\\HotelManag\\obj\\",
+      "outputPath": "D:\\ITI\\courses\\16-Visual CS.Net\\CS_Labs\\git\\EF\\HotalManagement\\HotelManag\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Somaya\\AppData\\Roaming\\NuGet\\NuGet.Config",
