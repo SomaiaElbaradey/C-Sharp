@@ -1,0 +1,133 @@
+D:\ITI\courses\Entity Framework .core\labs\HotalManagement\HotalManagement\bin\Debug\net5.0-windows\HotalManagement.exe
+D:\ITI\courses\Entity Framework .core\labs\HotalManagement\HotalManagement\bin\Debug\net5.0-windows\HotalManagement.deps.json
+D:\ITI\courses\Entity Framework .core\labs\HotalManagement\HotalManagement\bin\Debug\net5.0-windows\HotalManagement.runtimeconfig.json
+D:\ITI\courses\Entity Framework .core\labs\HotalManagement\HotalManagement\bin\Debug\net5.0-windows\HotalManagement.runtimeconfig.dev.json
+D:\ITI\courses\Entity Framework .core\labs\HotalManagement\HotalManagement\bin\Debug\net5.0-windows\HotalManagement.dll
+D:\ITI\courses\Entity Framework .core\labs\HotalManagement\HotalManagement\bin\Debug\net5.0-windows\ref\HotalManagement.dll
+D:\ITI\courses\Entity Framework .core\labs\HotalManagement\HotalManagement\bin\Debug\net5.0-windows\HotalManagement.pdb
+D:\ITI\courses\Entity Framework .core\labs\HotalManagement\HotalManagement\bin\Debug\net5.0-windows\Humanizer.dll
+D:\ITI\courses\Entity Framework .core\labs\HotalManagement\HotalManagement\bin\Debug\net5.0-windows\Microsoft.Data.SqlClient.dll
+D:\ITI\courses\Entity Framework .core\labs\HotalManagement\HotalManagement\bin\Debug\net5.0-windows\Microsoft.EntityFrameworkCore.dll
+D:\ITI\courses\Entity Framework .core\labs\HotalManagement\HotalManagement\bin\Debug\net5.0-windows\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\ITI\courses\Entity Framework .core\labs\HotalManagement\HotalManagement\bin\Debug\net5.0-windows\Microsoft.EntityFrameworkCore.Design.dll
+D:\ITI\courses\Entity Framework .core\labs\HotalManagement\HotalManagement\bin\Debug\net5.0-windows\Microsoft.EntityFrameworkCore.Relational.dll
+D:\ITI\courses\Entity Framework .core\labs\HotalManagement\HotalManagement\bin\Debug\net5.0-windows\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\ITI\courses\Entity Framework .core\labs\HotalManagement\HotalManagement\bin\Debug\net5.0-windows\Microsoft.Extensions.Caching.Abstractions.dll
+D:\ITI\courses\Entity Framework .core\labs\HotalManagement\HotalManagement\bin\Debug\net5.0-windows\Microsoft.Extensions.Caching.Memory.dll
+D:\ITI\courses\Entity Framework .core\labs\HotalManagement\HotalManagement\bin\Debug\net5.0-windows\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\ITI\courses\Entity Framework .core\labs\HotalManagement\HotalManagement\bin\Debug\net5.0-windows\Microsoft.Extensions.DependencyInjection.dll
+D:\ITI\courses\Entity Framework .core\labs\HotalManagement\HotalManagement\bin\Debug\net5.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\ITI\courses\Entity Framework .core\labs\HotalManagement\HotalManagement\bin\Debug\net5.0-windows\Microsoft.Extensions.Logging.dll
+D:\ITI\courses\Entity Framework .core\labs\HotalManagement\HotalManagement\bin\Debug\net5.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
+D:\ITI\courses\Entity Framework .core\labs\HotalManagement\HotalManagement\bin\Debug\net5.0-windows\Microsoft.Extensions.Options.dll
+D:\ITI\courses\Entity Framework .core\labs\HotalManagement\HotalManagement\bin\Debug\net5.0-windows\Microsoft.Extensions.Primitives.dll
+D:\ITI\courses\Entity Framework .core\labs\HotalManagement\HotalManagement\bin\Debug\net5.0-windows\Microsoft.Identity.Client.dll
+D:\ITI\courses\Entity Framework .core\labs\HotalManagement\HotalManagement\bin\Debug\net5.0-windows\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\ITI\courses\Entity Framework .core\labs\HotalManagement\HotalManagement\bin\Debug\net5.0-windows\Microsoft.IdentityModel.Logging.dll
+D:\ITI\courses\Entity Framework .core\labs\HotalManagement\HotalManagement\bin\Debug\net5.0-windows\Microsoft.IdentityModel.Protocols.dll
+D:\ITI\courses\Entity Framework .core\labs\HotalManagement\HotalManagement\bin\Debug\net5.0-windows\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\ITI\courses\Entity Framework .core\labs\HotalManagement\HotalManagement\bin\Debug\net5.0-windows\Microsoft.IdentityModel.Tokens.dll
+D:\ITI\courses\Entity Framework .core\labs\HotalManagement\HotalManagement\bin\Debug\net5.0-windows\Newtonsoft.Json.dll
+D:\ITI\courses\Entity Framework .core\labs\HotalManagement\HotalManagement\bin\Debug\net5.0-windows\System.Diagnostics.DiagnosticSource.dll
+D:\ITI\courses\Entity Framework .core\labs\HotalManagement\HotalManagement\bin\Debug\net5.0-windows\System.IdentityModel.Tokens.Jwt.dll
+D:\ITI\courses\Entity Framework .core\labs\HotalManagement\HotalManagement\bin\Debug\net5.0-windows\System.Runtime.Caching.dll
+D:\ITI\courses\Entity Framework .core\labs\HotalManagement\HotalManagement\bin\Debug\net5.0-windows\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\ITI\courses\Entity Framework .core\labs\HotalManagement\HotalManagement\bin\Debug\net5.0-windows\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\ITI\courses\Entity Framework .core\labs\HotalManagement\HotalManagement\bin\Debug\net5.0-windows\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\ITI\courses\Entity Framework .core\labs\HotalManagement\HotalManagement\bin\Debug\net5.0-windows\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+D:\ITI\courses\Entity Framework .core\labs\HotalManagement\HotalManagement\bin\Debug\net5.0-windows\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\ITI\courses\Entity Framework .core\labs\HotalManagement\HotalManagement\bin\Debug\net5.0-windows\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+D:\ITI\courses\Entity Framework .core\labs\HotalManagement\HotalManagement\bin\Debug\net5.0-windows\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\ITI\courses\Entity Framework .core\labs\HotalManagement\HotalManagement\bin\Debug\net5.0-windows\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+D:\ITI\courses\Entity Framework .core\labs\HotalManagement\HotalManagement\bin\Debug\net5.0-windows\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\ITI\courses\Entity Framework .core\labs\HotalManagement\HotalManagement\bin\Debug\net5.0-windows\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+D:\ITI\courses\Entity Framework .core\labs\HotalManagement\HotalManagement\bin\Debug\net5.0-windows\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+D:\ITI\courses\Entity Framework .core\labs\HotalManagement\HotalManagement\obj\Debug\net5.0-windows\HotalManagement.csprojAssemblyReference.cache
+D:\ITI\courses\Entity Framework .core\labs\HotalManagement\HotalManagement\obj\Debug\net5.0-windows\HotalManagement.Form1.resources
+D:\ITI\courses\Entity Framework .core\labs\HotalManagement\HotalManagement\obj\Debug\net5.0-windows\HotalManagement.csproj.GenerateResource.cache
+D:\ITI\courses\Entity Framework .core\labs\HotalManagement\HotalManagement\obj\Debug\net5.0-windows\HotalManagement.GeneratedMSBuildEditorConfig.editorconfig
+D:\ITI\courses\Entity Framework .core\labs\HotalManagement\HotalManagement\obj\Debug\net5.0-windows\HotalManagement.AssemblyInfoInputs.cache
+D:\ITI\courses\Entity Framework .core\labs\HotalManagement\HotalManagement\obj\Debug\net5.0-windows\HotalManagement.AssemblyInfo.cs
+D:\ITI\courses\Entity Framework .core\labs\HotalManagement\HotalManagement\obj\Debug\net5.0-windows\HotalManagement.csproj.CoreCompileInputs.cache
+D:\ITI\courses\Entity Framework .core\labs\HotalManagement\HotalManagement\obj\Debug\net5.0-windows\HotalManagement.csproj.CopyComplete
+D:\ITI\courses\Entity Framework .core\labs\HotalManagement\HotalManagement\obj\Debug\net5.0-windows\HotalManagement.dll
+D:\ITI\courses\Entity Framework .core\labs\HotalManagement\HotalManagement\obj\Debug\net5.0-windows\ref\HotalManagement.dll
+D:\ITI\courses\Entity Framework .core\labs\HotalManagement\HotalManagement\obj\Debug\net5.0-windows\HotalManagement.pdb
+D:\ITI\courses\Entity Framework .core\labs\HotalManagement\HotalManagement\obj\Debug\net5.0-windows\HotalManagement.genruntimeconfig.cache
+D:\ITI\courses\Entity Framework .core\labs\HotalManagement\HotalManagement\bin\Debug\net5.0-windows\HotelManag.deps.json
+D:\ITI\courses\Entity Framework .core\labs\HotalManagement\HotalManagement\bin\Debug\net5.0-windows\HotelManag.runtimeconfig.json
+D:\ITI\courses\Entity Framework .core\labs\HotalManagement\HotalManagement\bin\Debug\net5.0-windows\HotelManag.runtimeconfig.dev.json
+D:\ITI\courses\Entity Framework .core\labs\HotalManagement\HotalManagement\bin\Debug\net5.0-windows\HotelManag.exe
+D:\ITI\courses\Entity Framework .core\labs\HotalManagement\HotalManagement\bin\Debug\net5.0-windows\HotelManag.dll
+D:\ITI\courses\Entity Framework .core\labs\HotalManagement\HotalManagement\bin\Debug\net5.0-windows\HotelManag.pdb
+D:\ITI\courses\Entity Framework .core\labs\HotalManagement\HotalManagement\obj\Debug\net5.0-windows\HotalManagement.kitchenManag.resources
+D:\ITI\courses\Entity Framework .core\labs\HotalManagement\HotalManagement\obj\Debug\net5.0-windows\HotalManagement.Properties.Resources.resources
+D:\ITI\courses\Entity Framework .core\labs\HotalManagement\HotalManagement\obj\Debug\net5.0-windows\HotalManagement.adminManag.resources
+D:\ITI\courses\Entity Framework .core\labs\HotalManagement\HotalManagement\obj\Debug\net5.0-windows\HotalManagement.Food.resources
+D:\ITI\courses\Entity Framework .core\labs\HotalManagement - Dapper\HotalManagement\bin\Debug\net5.0-windows\HotelManag.deps.json
+D:\ITI\courses\Entity Framework .core\labs\HotalManagement - Dapper\HotalManagement\bin\Debug\net5.0-windows\HotelManag.runtimeconfig.json
+D:\ITI\courses\Entity Framework .core\labs\HotalManagement - Dapper\HotalManagement\bin\Debug\net5.0-windows\HotelManag.runtimeconfig.dev.json
+D:\ITI\courses\Entity Framework .core\labs\HotalManagement - Dapper\HotalManagement\bin\Debug\net5.0-windows\HotelManag.exe
+D:\ITI\courses\Entity Framework .core\labs\HotalManagement - Dapper\HotalManagement\bin\Debug\net5.0-windows\HotalManagement.exe
+D:\ITI\courses\Entity Framework .core\labs\HotalManagement - Dapper\HotalManagement\bin\Debug\net5.0-windows\HotalManagement.deps.json
+D:\ITI\courses\Entity Framework .core\labs\HotalManagement - Dapper\HotalManagement\bin\Debug\net5.0-windows\HotalManagement.runtimeconfig.json
+D:\ITI\courses\Entity Framework .core\labs\HotalManagement - Dapper\HotalManagement\bin\Debug\net5.0-windows\HotalManagement.runtimeconfig.dev.json
+D:\ITI\courses\Entity Framework .core\labs\HotalManagement - Dapper\HotalManagement\bin\Debug\net5.0-windows\HotalManagement.dll
+D:\ITI\courses\Entity Framework .core\labs\HotalManagement - Dapper\HotalManagement\bin\Debug\net5.0-windows\ref\HotalManagement.dll
+D:\ITI\courses\Entity Framework .core\labs\HotalManagement - Dapper\HotalManagement\bin\Debug\net5.0-windows\HotalManagement.pdb
+D:\ITI\courses\Entity Framework .core\labs\HotalManagement - Dapper\HotalManagement\bin\Debug\net5.0-windows\Humanizer.dll
+D:\ITI\courses\Entity Framework .core\labs\HotalManagement - Dapper\HotalManagement\bin\Debug\net5.0-windows\Microsoft.Data.SqlClient.dll
+D:\ITI\courses\Entity Framework .core\labs\HotalManagement - Dapper\HotalManagement\bin\Debug\net5.0-windows\Microsoft.EntityFrameworkCore.dll
+D:\ITI\courses\Entity Framework .core\labs\HotalManagement - Dapper\HotalManagement\bin\Debug\net5.0-windows\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\ITI\courses\Entity Framework .core\labs\HotalManagement - Dapper\HotalManagement\bin\Debug\net5.0-windows\Microsoft.EntityFrameworkCore.Design.dll
+D:\ITI\courses\Entity Framework .core\labs\HotalManagement - Dapper\HotalManagement\bin\Debug\net5.0-windows\Microsoft.EntityFrameworkCore.Relational.dll
+D:\ITI\courses\Entity Framework .core\labs\HotalManagement - Dapper\HotalManagement\bin\Debug\net5.0-windows\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\ITI\courses\Entity Framework .core\labs\HotalManagement - Dapper\HotalManagement\bin\Debug\net5.0-windows\Microsoft.Extensions.Caching.Abstractions.dll
+D:\ITI\courses\Entity Framework .core\labs\HotalManagement - Dapper\HotalManagement\bin\Debug\net5.0-windows\Microsoft.Extensions.Caching.Memory.dll
+D:\ITI\courses\Entity Framework .core\labs\HotalManagement - Dapper\HotalManagement\bin\Debug\net5.0-windows\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\ITI\courses\Entity Framework .core\labs\HotalManagement - Dapper\HotalManagement\bin\Debug\net5.0-windows\Microsoft.Extensions.DependencyInjection.dll
+D:\ITI\courses\Entity Framework .core\labs\HotalManagement - Dapper\HotalManagement\bin\Debug\net5.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\ITI\courses\Entity Framework .core\labs\HotalManagement - Dapper\HotalManagement\bin\Debug\net5.0-windows\Microsoft.Extensions.Logging.dll
+D:\ITI\courses\Entity Framework .core\labs\HotalManagement - Dapper\HotalManagement\bin\Debug\net5.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
+D:\ITI\courses\Entity Framework .core\labs\HotalManagement - Dapper\HotalManagement\bin\Debug\net5.0-windows\Microsoft.Extensions.Options.dll
+D:\ITI\courses\Entity Framework .core\labs\HotalManagement - Dapper\HotalManagement\bin\Debug\net5.0-windows\Microsoft.Extensions.Primitives.dll
+D:\ITI\courses\Entity Framework .core\labs\HotalManagement - Dapper\HotalManagement\bin\Debug\net5.0-windows\Microsoft.Identity.Client.dll
+D:\ITI\courses\Entity Framework .core\labs\HotalManagement - Dapper\HotalManagement\bin\Debug\net5.0-windows\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\ITI\courses\Entity Framework .core\labs\HotalManagement - Dapper\HotalManagement\bin\Debug\net5.0-windows\Microsoft.IdentityModel.Logging.dll
+D:\ITI\courses\Entity Framework .core\labs\HotalManagement - Dapper\HotalManagement\bin\Debug\net5.0-windows\Microsoft.IdentityModel.Protocols.dll
+D:\ITI\courses\Entity Framework .core\labs\HotalManagement - Dapper\HotalManagement\bin\Debug\net5.0-windows\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\ITI\courses\Entity Framework .core\labs\HotalManagement - Dapper\HotalManagement\bin\Debug\net5.0-windows\Microsoft.IdentityModel.Tokens.dll
+D:\ITI\courses\Entity Framework .core\labs\HotalManagement - Dapper\HotalManagement\bin\Debug\net5.0-windows\Newtonsoft.Json.dll
+D:\ITI\courses\Entity Framework .core\labs\HotalManagement - Dapper\HotalManagement\bin\Debug\net5.0-windows\System.Diagnostics.DiagnosticSource.dll
+D:\ITI\courses\Entity Framework .core\labs\HotalManagement - Dapper\HotalManagement\bin\Debug\net5.0-windows\System.IdentityModel.Tokens.Jwt.dll
+D:\ITI\courses\Entity Framework .core\labs\HotalManagement - Dapper\HotalManagement\bin\Debug\net5.0-windows\System.Runtime.Caching.dll
+D:\ITI\courses\Entity Framework .core\labs\HotalManagement - Dapper\HotalManagement\bin\Debug\net5.0-windows\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\ITI\courses\Entity Framework .core\labs\HotalManagement - Dapper\HotalManagement\bin\Debug\net5.0-windows\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\ITI\courses\Entity Framework .core\labs\HotalManagement - Dapper\HotalManagement\bin\Debug\net5.0-windows\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\ITI\courses\Entity Framework .core\labs\HotalManagement - Dapper\HotalManagement\bin\Debug\net5.0-windows\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+D:\ITI\courses\Entity Framework .core\labs\HotalManagement - Dapper\HotalManagement\bin\Debug\net5.0-windows\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\ITI\courses\Entity Framework .core\labs\HotalManagement - Dapper\HotalManagement\bin\Debug\net5.0-windows\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+D:\ITI\courses\Entity Framework .core\labs\HotalManagement - Dapper\HotalManagement\bin\Debug\net5.0-windows\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\ITI\courses\Entity Framework .core\labs\HotalManagement - Dapper\HotalManagement\bin\Debug\net5.0-windows\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+D:\ITI\courses\Entity Framework .core\labs\HotalManagement - Dapper\HotalManagement\bin\Debug\net5.0-windows\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\ITI\courses\Entity Framework .core\labs\HotalManagement - Dapper\HotalManagement\bin\Debug\net5.0-windows\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+D:\ITI\courses\Entity Framework .core\labs\HotalManagement - Dapper\HotalManagement\bin\Debug\net5.0-windows\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+D:\ITI\courses\Entity Framework .core\labs\HotalManagement - Dapper\HotalManagement\bin\Debug\net5.0-windows\HotelManag.dll
+D:\ITI\courses\Entity Framework .core\labs\HotalManagement - Dapper\HotalManagement\bin\Debug\net5.0-windows\HotelManag.pdb
+D:\ITI\courses\Entity Framework .core\labs\HotalManagement - Dapper\HotalManagement\obj\Debug\net5.0-windows\HotalManagement.csprojAssemblyReference.cache
+D:\ITI\courses\Entity Framework .core\labs\HotalManagement - Dapper\HotalManagement\obj\Debug\net5.0-windows\HotalManagement.adminManag.resources
+D:\ITI\courses\Entity Framework .core\labs\HotalManagement - Dapper\HotalManagement\obj\Debug\net5.0-windows\HotalManagement.Food.resources
+D:\ITI\courses\Entity Framework .core\labs\HotalManagement - Dapper\HotalManagement\obj\Debug\net5.0-windows\HotalManagement.Form1.resources
+D:\ITI\courses\Entity Framework .core\labs\HotalManagement - Dapper\HotalManagement\obj\Debug\net5.0-windows\HotalManagement.kitchenManag.resources
+D:\ITI\courses\Entity Framework .core\labs\HotalManagement - Dapper\HotalManagement\obj\Debug\net5.0-windows\HotalManagement.Properties.Resources.resources
+D:\ITI\courses\Entity Framework .core\labs\HotalManagement - Dapper\HotalManagement\obj\Debug\net5.0-windows\HotalManagement.csproj.GenerateResource.cache
+D:\ITI\courses\Entity Framework .core\labs\HotalManagement - Dapper\HotalManagement\obj\Debug\net5.0-windows\HotalManagement.GeneratedMSBuildEditorConfig.editorconfig
+D:\ITI\courses\Entity Framework .core\labs\HotalManagement - Dapper\HotalManagement\obj\Debug\net5.0-windows\HotalManagement.AssemblyInfoInputs.cache
+D:\ITI\courses\Entity Framework .core\labs\HotalManagement - Dapper\HotalManagement\obj\Debug\net5.0-windows\HotalManagement.AssemblyInfo.cs
+D:\ITI\courses\Entity Framework .core\labs\HotalManagement - Dapper\HotalManagement\obj\Debug\net5.0-windows\HotalManagement.csproj.CoreCompileInputs.cache
+D:\ITI\courses\Entity Framework .core\labs\HotalManagement - Dapper\HotalManagement\obj\Debug\net5.0-windows\HotalManagement.csproj.CopyComplete
+D:\ITI\courses\Entity Framework .core\labs\HotalManagement - Dapper\HotalManagement\obj\Debug\net5.0-windows\HotalManagement.dll
+D:\ITI\courses\Entity Framework .core\labs\HotalManagement - Dapper\HotalManagement\obj\Debug\net5.0-windows\ref\HotalManagement.dll
+D:\ITI\courses\Entity Framework .core\labs\HotalManagement - Dapper\HotalManagement\obj\Debug\net5.0-windows\HotalManagement.pdb
+D:\ITI\courses\Entity Framework .core\labs\HotalManagement - Dapper\HotalManagement\obj\Debug\net5.0-windows\HotalManagement.genruntimeconfig.cache
+D:\ITI\courses\Entity Framework .core\labs\HotalManagement - Dapper\HotalManagement\bin\Debug\net5.0-windows\Dapper.dll
