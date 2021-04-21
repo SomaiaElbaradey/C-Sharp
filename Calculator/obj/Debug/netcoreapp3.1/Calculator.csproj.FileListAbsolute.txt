@@ -19,3 +19,24 @@ F:\ITI\WPF\Labs\Lab2\Lab2_sol\Calculator\obj\Debug\netcoreapp3.1\Calculator.pdb
 F:\ITI\WPF\Labs\Lab2\Lab2_sol\Calculator\obj\Debug\netcoreapp3.1\Calculator.genruntimeconfig.cache
 F:\ITI\WPF\Labs\Lab2\Lab2_sol\Calculator\bin\Debug\netcoreapp3.1\MathParser.org-mXparser.dll
 F:\ITI\WPF\Labs\Lab2\Lab2_sol\Calculator\obj\Debug\netcoreapp3.1\Calculator.csproj.CopyComplete
+D:\ITI\courses\16-Visual CS.Net\CS_Labs\git\Calculator\bin\Debug\netcoreapp3.1\Calculator.exe
+D:\ITI\courses\16-Visual CS.Net\CS_Labs\git\Calculator\bin\Debug\netcoreapp3.1\Calculator.deps.json
+D:\ITI\courses\16-Visual CS.Net\CS_Labs\git\Calculator\bin\Debug\netcoreapp3.1\Calculator.runtimeconfig.json
+D:\ITI\courses\16-Visual CS.Net\CS_Labs\git\Calculator\bin\Debug\netcoreapp3.1\Calculator.runtimeconfig.dev.json
+D:\ITI\courses\16-Visual CS.Net\CS_Labs\git\Calculator\bin\Debug\netcoreapp3.1\Calculator.dll
+D:\ITI\courses\16-Visual CS.Net\CS_Labs\git\Calculator\bin\Debug\netcoreapp3.1\Calculator.pdb
+D:\ITI\courses\16-Visual CS.Net\CS_Labs\git\Calculator\bin\Debug\netcoreapp3.1\MathParser.org-mXparser.dll
+D:\ITI\courses\16-Visual CS.Net\CS_Labs\git\Calculator\obj\Debug\netcoreapp3.1\Calculator.csprojAssemblyReference.cache
+D:\ITI\courses\16-Visual CS.Net\CS_Labs\git\Calculator\obj\Debug\netcoreapp3.1\MainWindow.g.cs
+D:\ITI\courses\16-Visual CS.Net\CS_Labs\git\Calculator\obj\Debug\netcoreapp3.1\App.g.cs
+D:\ITI\courses\16-Visual CS.Net\CS_Labs\git\Calculator\obj\Debug\netcoreapp3.1\Calculator_MarkupCompile.cache
+D:\ITI\courses\16-Visual CS.Net\CS_Labs\git\Calculator\obj\Debug\netcoreapp3.1\Calculator_MarkupCompile.lref
+D:\ITI\courses\16-Visual CS.Net\CS_Labs\git\Calculator\obj\Debug\netcoreapp3.1\MainWindow.baml
+D:\ITI\courses\16-Visual CS.Net\CS_Labs\git\Calculator\obj\Debug\netcoreapp3.1\Calculator.g.resources
+D:\ITI\courses\16-Visual CS.Net\CS_Labs\git\Calculator\obj\Debug\netcoreapp3.1\Calculator.AssemblyInfoInputs.cache
+D:\ITI\courses\16-Visual CS.Net\CS_Labs\git\Calculator\obj\Debug\netcoreapp3.1\Calculator.AssemblyInfo.cs
+D:\ITI\courses\16-Visual CS.Net\CS_Labs\git\Calculator\obj\Debug\netcoreapp3.1\Calculator.csproj.CoreCompileInputs.cache
+D:\ITI\courses\16-Visual CS.Net\CS_Labs\git\Calculator\obj\Debug\netcoreapp3.1\Calculator.csproj.CopyComplete
+D:\ITI\courses\16-Visual CS.Net\CS_Labs\git\Calculator\obj\Debug\netcoreapp3.1\Calculator.dll
+D:\ITI\courses\16-Visual CS.Net\CS_Labs\git\Calculator\obj\Debug\netcoreapp3.1\Calculator.pdb
+D:\ITI\courses\16-Visual CS.Net\CS_Labs\git\Calculator\obj\Debug\netcoreapp3.1\Calculator.genruntimeconfig.cache

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "p4fAWiLxk+5uIQgKyHk0EJ6Y+zOtT/sij1/0H8IvM/SVwKYOjChvJZz5FKBRCE4BodsfJNR4gwinpftPpWsQQQ==",
+  "dgSpecHash": "d/6N3U0xwgLkMiRA7flMN531P5bIFzCKSX8we/siY0Zz/Snopi0VZbDfc7JKul/MvAXsmKyOPzKzRdHcmNW1+g==",
   "success": true,
-  "projectFilePath": "D:\\ITI\\courses\\CS\\CS_Labs\\Lab05\\duration\\duration.csproj",
+  "projectFilePath": "D:\\ITI\\courses\\16-Visual CS.Net\\CS_Labs\\git\\Operator Overloading\\duration\\duration.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

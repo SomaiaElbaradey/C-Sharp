@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\ITI\\courses\\CS\\CS_Labs\\Lab05\\people\\people.csproj": {}
+    "D:\\ITI\\courses\\16-Visual CS.Net\\CS_Labs\\git\\Operator Overloading\\people\\people.csproj": {}
   },
   "projects": {
-    "D:\\ITI\\courses\\CS\\CS_Labs\\Lab05\\people\\people.csproj": {
+    "D:\\ITI\\courses\\16-Visual CS.Net\\CS_Labs\\git\\Operator Overloading\\people\\people.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\ITI\\courses\\CS\\CS_Labs\\Lab05\\people\\people.csproj",
+        "projectUniqueName": "D:\\ITI\\courses\\16-Visual CS.Net\\CS_Labs\\git\\Operator Overloading\\people\\people.csproj",
         "projectName": "people",
-        "projectPath": "D:\\ITI\\courses\\CS\\CS_Labs\\Lab05\\people\\people.csproj",
+        "projectPath": "D:\\ITI\\courses\\16-Visual CS.Net\\CS_Labs\\git\\Operator Overloading\\people\\people.csproj",
         "packagesPath": "C:\\Users\\Somaya\\.nuget\\packages\\",
-        "outputPath": "D:\\ITI\\courses\\CS\\CS_Labs\\Lab05\\people\\obj\\",
+        "outputPath": "D:\\ITI\\courses\\16-Visual CS.Net\\CS_Labs\\git\\Operator Overloading\\people\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Somaya\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -54,7 +54,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     }

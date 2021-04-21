@@ -1,0 +1,60 @@
+﻿<Window x:Class="inkcanvas.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:inkcanvas"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="603">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="41*"></RowDefinition>
+            <RowDefinition Height="21*"></RowDefinition>
+        </Grid.RowDefinitions>
+        <Border BorderBrush="#FF046969" Background="#FF0B595A" BorderThickness="4">
+            <InkCanvas Name="ink"></InkCanvas>
+        </Border>
+        <StackPanel Grid.Row="1" Orientation="Horizontal" Margin="7" Background="White">
+            <GroupBox Header="Color" Margin="3" Background="#FFF3FDF3" FontFamily="Berlin Sans FB" FontStyle="Normal" FontWeight="Normal">
+                <StackPanel>
+                    <RadioButton Click="ColorClick" Margin="3" Content="Red"></RadioButton>
+                    <RadioButton Click="ColorClick" Margin="3" Content="Green"></RadioButton>
+                    <RadioButton Click="ColorClick" Margin="3" Content="Blue"></RadioButton>
+                </StackPanel>
+            </GroupBox>
+            <GroupBox Header="Modes" Margin="3" Background="#FFF9EDF3" FontFamily="Berlin Sans FB" FontStyle="Normal" FontWeight="Normal">
+                <StackPanel>
+                    <RadioButton Click="ModeClick" Margin="3" Content="Ink"></RadioButton>
+                    <RadioButton Click="ModeClick" Margin="3" Content="Select"></RadioButton>
+                    <RadioButton Click="ModeClick" Margin="3" Content="EraseByPoint"></RadioButton>
+                    <RadioButton Click="ModeClick" Margin="3" Content="EraseByStroke"></RadioButton>
+                </StackPanel>
+            </GroupBox>
+            <GroupBox Header="Drawing Shapes" Margin="3" Background="#FFF9F8ED" FontFamily="Berlin Sans FB" FontStyle="Normal" FontWeight="Normal">
+                <StackPanel>
+                    <RadioButton Click="ShapingClick" Margin="3" Content="Ellipse"></RadioButton>
+                    <RadioButton Click="ShapingClick" Margin="3" Content="Rectangle"></RadioButton>
+                </StackPanel>
+            </GroupBox>
+            <GroupBox Header="Brush Size" Margin="3" Background="#FFF3F9FD" FontFamily="Berlin Sans FB" FontStyle="Normal" FontWeight="Normal">
+                <StackPanel>
+                    <RadioButton Click="BrushClick" Name="small" Margin="3" Content="Small"></RadioButton>
+                    <RadioButton Click="BrushClick" Name="normal" Margin="3" Content="Normal"></RadioButton>
+                    <RadioButton Click="BrushClick" Name="large" Margin="3" Content="Large"></RadioButton>
+                </StackPanel>
+            </GroupBox>
+            <StackPanel>
+                <WrapPanel>
+                    <Button Click="NewClick" Width="59" Height="30" Margin="7" Background="#FF8AD7C1" BorderBrush="{x:Null}" FontFamily="Berlin Sans FB" FontSize="14">New</Button>
+                    <Button Click="SaveClick" Width="59" Height="30" Margin="7" Background="#FF8AD7C1" BorderBrush="{x:Null}" FontFamily="Berlin Sans FB" FontSize="14">Save</Button>
+                    <Button Click="LoadClick" Width="59" Height="30" Margin="7" Background="#FF8AD7C1" BorderBrush="{x:Null}" FontFamily="Berlin Sans FB" FontSize="14">Load</Button>
+                </WrapPanel>
+                <WrapPanel>
+                    <Button Click="CopyClick" Width="59" Height="30" Margin="7" Background="#FF8AD7C1" BorderBrush="{x:Null}" FontFamily="Berlin Sans FB" FontSize="14">Copy</Button>
+                    <Button Click="CutClick" Width="59" Height="30" Margin="7" Background="#FF8AD7C1" BorderBrush="{x:Null}" FontFamily="Berlin Sans FB" FontSize="14">Cut</Button>
+                    <Button Click="PasteClick" Width="59" Height="30" Margin="7" Background="#FF8AD7C1" BorderBrush="{x:Null}" FontFamily="Berlin Sans FB" FontSize="14">Paste</Button>
+                </WrapPanel>
+            </StackPanel>
+        </StackPanel>
+    </Grid>
+</Window>

@@ -13,3 +13,18 @@ D:\ITI\courses\CS\CS_Labs\Lab09\calculateAge\obj\Debug\netcoreapp3.1\calculateAg
 D:\ITI\courses\CS\CS_Labs\Lab09\calculateAge\obj\Debug\netcoreapp3.1\calculateAge.dll
 D:\ITI\courses\CS\CS_Labs\Lab09\calculateAge\obj\Debug\netcoreapp3.1\calculateAge.pdb
 D:\ITI\courses\CS\CS_Labs\Lab09\calculateAge\obj\Debug\netcoreapp3.1\calculateAge.genruntimeconfig.cache
+D:\ITI\courses\16-Visual CS.Net\CS_Labs\git\Calculate Age and Notepad Forms\calculateAge\bin\Debug\netcoreapp3.1\calculateAge.exe
+D:\ITI\courses\16-Visual CS.Net\CS_Labs\git\Calculate Age and Notepad Forms\calculateAge\bin\Debug\netcoreapp3.1\calculateAge.deps.json
+D:\ITI\courses\16-Visual CS.Net\CS_Labs\git\Calculate Age and Notepad Forms\calculateAge\bin\Debug\netcoreapp3.1\calculateAge.runtimeconfig.json
+D:\ITI\courses\16-Visual CS.Net\CS_Labs\git\Calculate Age and Notepad Forms\calculateAge\bin\Debug\netcoreapp3.1\calculateAge.runtimeconfig.dev.json
+D:\ITI\courses\16-Visual CS.Net\CS_Labs\git\Calculate Age and Notepad Forms\calculateAge\bin\Debug\netcoreapp3.1\calculateAge.dll
+D:\ITI\courses\16-Visual CS.Net\CS_Labs\git\Calculate Age and Notepad Forms\calculateAge\bin\Debug\netcoreapp3.1\calculateAge.pdb
+D:\ITI\courses\16-Visual CS.Net\CS_Labs\git\Calculate Age and Notepad Forms\calculateAge\obj\Debug\netcoreapp3.1\calculateAge.csprojAssemblyReference.cache
+D:\ITI\courses\16-Visual CS.Net\CS_Labs\git\Calculate Age and Notepad Forms\calculateAge\obj\Debug\netcoreapp3.1\calculateAge.Form1.resources
+D:\ITI\courses\16-Visual CS.Net\CS_Labs\git\Calculate Age and Notepad Forms\calculateAge\obj\Debug\netcoreapp3.1\calculateAge.csproj.GenerateResource.cache
+D:\ITI\courses\16-Visual CS.Net\CS_Labs\git\Calculate Age and Notepad Forms\calculateAge\obj\Debug\netcoreapp3.1\calculateAge.AssemblyInfoInputs.cache
+D:\ITI\courses\16-Visual CS.Net\CS_Labs\git\Calculate Age and Notepad Forms\calculateAge\obj\Debug\netcoreapp3.1\calculateAge.AssemblyInfo.cs
+D:\ITI\courses\16-Visual CS.Net\CS_Labs\git\Calculate Age and Notepad Forms\calculateAge\obj\Debug\netcoreapp3.1\calculateAge.csproj.CoreCompileInputs.cache
+D:\ITI\courses\16-Visual CS.Net\CS_Labs\git\Calculate Age and Notepad Forms\calculateAge\obj\Debug\netcoreapp3.1\calculateAge.dll
+D:\ITI\courses\16-Visual CS.Net\CS_Labs\git\Calculate Age and Notepad Forms\calculateAge\obj\Debug\netcoreapp3.1\calculateAge.pdb
+D:\ITI\courses\16-Visual CS.Net\CS_Labs\git\Calculate Age and Notepad Forms\calculateAge\obj\Debug\netcoreapp3.1\calculateAge.genruntimeconfig.cache

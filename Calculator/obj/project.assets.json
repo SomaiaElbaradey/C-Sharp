@@ -86,11 +86,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Somaya\\Downloads\\Calculator\\Calculator.csproj",
+      "projectUniqueName": "D:\\ITI\\courses\\16-Visual CS.Net\\CS_Labs\\git\\Calculator\\Calculator.csproj",
       "projectName": "Calculator",
-      "projectPath": "C:\\Users\\Somaya\\Downloads\\Calculator\\Calculator.csproj",
+      "projectPath": "D:\\ITI\\courses\\16-Visual CS.Net\\CS_Labs\\git\\Calculator\\Calculator.csproj",
       "packagesPath": "C:\\Users\\Somaya\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Somaya\\Downloads\\Calculator\\obj\\",
+      "outputPath": "D:\\ITI\\courses\\16-Visual CS.Net\\CS_Labs\\git\\Calculator\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Somaya\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -142,7 +142,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.104\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
       }
     }
   }

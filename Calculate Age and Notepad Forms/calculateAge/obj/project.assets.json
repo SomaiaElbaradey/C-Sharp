@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\ITI\\courses\\CS\\CS_Labs\\Lab09\\calculateAge\\calculateAge.csproj",
+      "projectUniqueName": "D:\\ITI\\courses\\16-Visual CS.Net\\CS_Labs\\git\\Calculate Age and Notepad Forms\\calculateAge\\calculateAge.csproj",
       "projectName": "calculateAge",
-      "projectPath": "D:\\ITI\\courses\\CS\\CS_Labs\\Lab09\\calculateAge\\calculateAge.csproj",
+      "projectPath": "D:\\ITI\\courses\\16-Visual CS.Net\\CS_Labs\\git\\Calculate Age and Notepad Forms\\calculateAge\\calculateAge.csproj",
       "packagesPath": "C:\\Users\\Somaya\\.nuget\\packages\\",
-      "outputPath": "D:\\ITI\\courses\\CS\\CS_Labs\\Lab09\\calculateAge\\obj\\",
+      "outputPath": "D:\\ITI\\courses\\16-Visual CS.Net\\CS_Labs\\git\\Calculate Age and Notepad Forms\\calculateAge\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Somaya\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -63,7 +63,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.104\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
       }
     }
   }

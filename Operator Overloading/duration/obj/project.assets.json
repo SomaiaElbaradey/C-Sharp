@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\ITI\\courses\\CS\\CS_Labs\\Lab05\\duration\\duration.csproj",
+      "projectUniqueName": "D:\\ITI\\courses\\16-Visual CS.Net\\CS_Labs\\git\\Operator Overloading\\duration\\duration.csproj",
       "projectName": "duration",
-      "projectPath": "D:\\ITI\\courses\\CS\\CS_Labs\\Lab05\\duration\\duration.csproj",
+      "projectPath": "D:\\ITI\\courses\\16-Visual CS.Net\\CS_Labs\\git\\Operator Overloading\\duration\\duration.csproj",
       "packagesPath": "C:\\Users\\Somaya\\.nuget\\packages\\",
-      "outputPath": "D:\\ITI\\courses\\CS\\CS_Labs\\Lab05\\duration\\obj\\",
+      "outputPath": "D:\\ITI\\courses\\16-Visual CS.Net\\CS_Labs\\git\\Operator Overloading\\duration\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Somaya\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -60,7 +60,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
       }
     }
   }
