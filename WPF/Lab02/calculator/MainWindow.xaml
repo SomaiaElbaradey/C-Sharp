@@ -5,36 +5,62 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:calculator"
         mc:Ignorable="d" Style="{DynamicResource MyStyle}"
-        Title="MainWindow" Height="450" Width="400" ResizeMode="NoResize">
+        Title="MainWindow" Height="619" Width="400" ResizeMode="NoResize">
 
     <Window.Resources>
         <Style x:Key="MyStyle" TargetType="Window">
             <Setter Property="Background" >
                 <Setter.Value>
                     <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
-                        <GradientStop Color="Black"/>
-                        <GradientStop Color="#FF120E0E" Offset="1"/>
+                        <GradientStop Color="#000"/>
+                        <GradientStop Color="#000" Offset="1"/>
                     </LinearGradientBrush>
                 </Setter.Value>
             </Setter>
         </Style>
+
         <Style x:Key="btnStyle" TargetType="Button">
             <Style.Triggers>
                 <Trigger Property="IsMouseOver" Value="True">
                     <Setter Property="Template">
                         <Setter.Value>
                             <ControlTemplate TargetType="Button">
-                                <Grid>
-                                    <Rectangle Fill="Red"></Rectangle>
-                                </Grid>
+                                <!--<Grid>
+                                    <Button Background="#FF232323"
+                                            Foreground="White"
+                                            BorderBrush="AliceBlue">
+                                    </Button>
+                                    -->
+                                <!--<Border BorderBrush="AliceBlue" 
+                                            BorderThickness="2">
+                                        <Rectangle Fill="#FF232323">
+                                        </Rectangle>
+                                    </Border>-->
+                                <!--
+                                </Grid>-->
+                                <Rectangle Opacity="1"  Fill="#FF232323">
+
+                                </Rectangle>
                             </ControlTemplate>
                         </Setter.Value>
                     </Setter>
                 </Trigger>
             </Style.Triggers>
+            <Style.Setters>
+                <Setter Property="Width" Value="50"></Setter>
+                <Setter Property="Margin" Value="15"></Setter>
+                <Setter Property="Height" Value="50"></Setter>
+                <!--<Setter Property="Background" Value="#FF232323"></Setter>-->
+                <Setter Property="BorderBrush" Value="{x:Null}"></Setter>
+                <Setter Property="Background" Value="#FF1A1A1A"></Setter>
+                <Setter Property="BorderBrush" Value="#FF91BDE4"></Setter>
+                <Setter Property="Foreground" Value="AliceBlue"></Setter>
+                <Setter Property="FontFamily" Value="Comic Sans MS"></Setter>
+                <Setter Property="FontSize" Value="20"></Setter>
+            </Style.Setters>
         </Style>
     </Window.Resources>
-    
+
     <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="20"></ColumnDefinition>
@@ -47,13 +73,61 @@
             <RowDefinition Height="*"></RowDefinition>
             <RowDefinition Height="20"></RowDefinition>
         </Grid.RowDefinitions>
-        <StackPanel Grid.Column="1" Grid.Row="2" Margin="10">
+        <StackPanel Grid.Row="1" Grid.Column="1">
+            <TextBox  Margin="10" Height="96" Background="{x:Null}"
+                      Name="result" Foreground="AliceBlue" FontSize="24"
+                      FontFamily="Comic Sans MS"></TextBox>
+        </StackPanel>
+        <StackPanel Background="#FF1A1A1A" Grid.Column="1" Grid.Row="2"
+                    Margin="10">
             <WrapPanel>
-                <Border>
-                    <Button Style="{DynamicResource btnStyle}" Width="50" Height="50" Margin="15" BorderBrush="{x:Null}" Background="#FF301B3F"
-                        />
-                </Border>
-
+                <Button Style="{DynamicResource btnStyle}" Content="AC"
+                        Name="clear" Click="clear_Click"/>
+                <Button Style="{DynamicResource btnStyle}" Content="+/-"
+                        Name="plus_minus" Click="plus_minus_Click"/>
+                <Button Style="{DynamicResource btnStyle}" Content="%"
+                        Click="operator_Click"/>
+                <Button Style="{DynamicResource btnStyle}" Content="/"
+                        Click="operator_Click"/>
+            </WrapPanel>
+            <WrapPanel>
+                <Button Style="{DynamicResource btnStyle}" Content="7"
+                        Click="number_Click"/>
+                <Button Style="{DynamicResource btnStyle}" Content="8"
+                        Click="number_Click"/>
+                <Button Style="{DynamicResource btnStyle}" Content="9"
+                        Click="number_Click"/>
+                <Button Style="{DynamicResource btnStyle}" Content="x"
+                        Click="operator_Click"/>
+            </WrapPanel>
+            <WrapPanel>
+                <Button Style="{DynamicResource btnStyle}" Content="4"
+                        Click="number_Click"/>
+                <Button Style="{DynamicResource btnStyle}" Content="5"
+                        Click="number_Click"/>
+                <Button Style="{DynamicResource btnStyle}" Content="6"
+                        Click="number_Click"/>
+                <Button Style="{DynamicResource btnStyle}" Content="-"
+                        Click="operator_Click"/>
+            </WrapPanel>
+            <WrapPanel>
+                <Button Style="{DynamicResource btnStyle}" Content="1"
+                        Click="number_Click"/>
+                <Button Style="{DynamicResource btnStyle}" Content="2"
+                        Click="number_Click"/>
+                <Button Style="{DynamicResource btnStyle}" Content="3"
+                        Click="number_Click"/>
+                <Button Style="{DynamicResource btnStyle}" Content="+"
+                        Click="operator_Click"/>
+            </WrapPanel>
+            <WrapPanel>
+                <Button Style="{DynamicResource btnStyle}" Content="_"/>
+                <Button Style="{DynamicResource btnStyle}" Content="0"
+                        Click="number_Click"/>
+                <Button Style="{DynamicResource btnStyle}" Content="."
+                        Name="dot" Click="dot_Click"/>
+                <Button Style="{DynamicResource btnStyle}" Content="="
+                        Name="equal" Click="equal_Click"/>
             </WrapPanel>
         </StackPanel>
     </Grid>
