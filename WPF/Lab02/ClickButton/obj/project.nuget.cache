@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "AF2p3rLlcGNJ2jP9w7cwi1CJsBpPFJkbx7b8GQwuRb/eGBwjwUV7qkpE8U3XevglUdgMIjz1afLqZ3Iq174bag==",
+  "dgSpecHash": "DRROuhPUU6QeM4A2YS0YAv6Ffs9DLEMx9h0AZCvfRpSD3dEw90uiRO5cKLvoevgC2qC2GGpkwLCmLkBkwdrWAA==",
   "success": true,
-  "projectFilePath": "D:\\ITI\\courses\\27-WPF\\Labs\\Lab02\\ClickButton\\ClickButton.csproj",
+  "projectFilePath": "D:\\ITI\\courses\\16-Visual CS.Net\\CS_Labs\\git\\WPF\\Lab02\\ClickButton\\ClickButton.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

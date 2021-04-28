@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\ITI\\courses\\27-WPF\\Labs\\Lab02\\ToolTipImage\\ToolTipImage.csproj": {}
+    "D:\\ITI\\courses\\16-Visual CS.Net\\CS_Labs\\git\\WPF\\Lab02\\ToolTipImage\\ToolTipImage.csproj": {}
   },
   "projects": {
-    "D:\\ITI\\courses\\27-WPF\\Labs\\Lab02\\ToolTipImage\\ToolTipImage.csproj": {
+    "D:\\ITI\\courses\\16-Visual CS.Net\\CS_Labs\\git\\WPF\\Lab02\\ToolTipImage\\ToolTipImage.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\ITI\\courses\\27-WPF\\Labs\\Lab02\\ToolTipImage\\ToolTipImage.csproj",
+        "projectUniqueName": "D:\\ITI\\courses\\16-Visual CS.Net\\CS_Labs\\git\\WPF\\Lab02\\ToolTipImage\\ToolTipImage.csproj",
         "projectName": "ToolTipImage",
-        "projectPath": "D:\\ITI\\courses\\27-WPF\\Labs\\Lab02\\ToolTipImage\\ToolTipImage.csproj",
+        "projectPath": "D:\\ITI\\courses\\16-Visual CS.Net\\CS_Labs\\git\\WPF\\Lab02\\ToolTipImage\\ToolTipImage.csproj",
         "packagesPath": "C:\\Users\\Somaya\\.nuget\\packages\\",
-        "outputPath": "D:\\ITI\\courses\\27-WPF\\Labs\\Lab02\\ToolTipImage\\obj\\",
+        "outputPath": "D:\\ITI\\courses\\16-Visual CS.Net\\CS_Labs\\git\\WPF\\Lab02\\ToolTipImage\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Somaya\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "UkoqDDndN0yZaxpBu5EfL9moGxUq3ECLFEFzZJQxgSw9stSdWzZcc24FypVpu/l4TLiKdPKQYk3cWPfhIcHixg==",
+  "dgSpecHash": "Unc6i8bEXX0wOqbhrI06zD7R0NLFBQDV5ZFOuVPIOfoUWf/Wbi3R33eojMHLHz3pmQNfHDWvLWP1e8o4LvwTSw==",
   "success": true,
-  "projectFilePath": "D:\\ITI\\courses\\27-WPF\\Labs\\Lab02\\calculator\\calculator.csproj",
+  "projectFilePath": "D:\\ITI\\courses\\16-Visual CS.Net\\CS_Labs\\git\\WPF\\Lab02\\calculator\\calculator.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

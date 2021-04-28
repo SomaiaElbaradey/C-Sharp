@@ -20,3 +20,25 @@ D:\ITI\courses\27-WPF\Labs\Lab02\calculator\obj\Debug\net5.0-windows\calculator.
 D:\ITI\courses\27-WPF\Labs\Lab02\calculator\obj\Debug\net5.0-windows\ref\calculator.dll
 D:\ITI\courses\27-WPF\Labs\Lab02\calculator\obj\Debug\net5.0-windows\calculator.pdb
 D:\ITI\courses\27-WPF\Labs\Lab02\calculator\obj\Debug\net5.0-windows\calculator.genruntimeconfig.cache
+D:\ITI\courses\16-Visual CS.Net\CS_Labs\git\WPF\Lab02\calculator\bin\Debug\net5.0-windows\calculator.exe
+D:\ITI\courses\16-Visual CS.Net\CS_Labs\git\WPF\Lab02\calculator\bin\Debug\net5.0-windows\calculator.deps.json
+D:\ITI\courses\16-Visual CS.Net\CS_Labs\git\WPF\Lab02\calculator\bin\Debug\net5.0-windows\calculator.runtimeconfig.json
+D:\ITI\courses\16-Visual CS.Net\CS_Labs\git\WPF\Lab02\calculator\bin\Debug\net5.0-windows\calculator.runtimeconfig.dev.json
+D:\ITI\courses\16-Visual CS.Net\CS_Labs\git\WPF\Lab02\calculator\bin\Debug\net5.0-windows\calculator.dll
+D:\ITI\courses\16-Visual CS.Net\CS_Labs\git\WPF\Lab02\calculator\bin\Debug\net5.0-windows\ref\calculator.dll
+D:\ITI\courses\16-Visual CS.Net\CS_Labs\git\WPF\Lab02\calculator\bin\Debug\net5.0-windows\calculator.pdb
+D:\ITI\courses\16-Visual CS.Net\CS_Labs\git\WPF\Lab02\calculator\obj\Debug\net5.0-windows\calculator.csprojAssemblyReference.cache
+D:\ITI\courses\16-Visual CS.Net\CS_Labs\git\WPF\Lab02\calculator\obj\Debug\net5.0-windows\MainWindow.g.cs
+D:\ITI\courses\16-Visual CS.Net\CS_Labs\git\WPF\Lab02\calculator\obj\Debug\net5.0-windows\App.g.cs
+D:\ITI\courses\16-Visual CS.Net\CS_Labs\git\WPF\Lab02\calculator\obj\Debug\net5.0-windows\calculator_MarkupCompile.cache
+D:\ITI\courses\16-Visual CS.Net\CS_Labs\git\WPF\Lab02\calculator\obj\Debug\net5.0-windows\calculator_MarkupCompile.lref
+D:\ITI\courses\16-Visual CS.Net\CS_Labs\git\WPF\Lab02\calculator\obj\Debug\net5.0-windows\MainWindow.baml
+D:\ITI\courses\16-Visual CS.Net\CS_Labs\git\WPF\Lab02\calculator\obj\Debug\net5.0-windows\calculator.g.resources
+D:\ITI\courses\16-Visual CS.Net\CS_Labs\git\WPF\Lab02\calculator\obj\Debug\net5.0-windows\calculator.GeneratedMSBuildEditorConfig.editorconfig
+D:\ITI\courses\16-Visual CS.Net\CS_Labs\git\WPF\Lab02\calculator\obj\Debug\net5.0-windows\calculator.AssemblyInfoInputs.cache
+D:\ITI\courses\16-Visual CS.Net\CS_Labs\git\WPF\Lab02\calculator\obj\Debug\net5.0-windows\calculator.AssemblyInfo.cs
+D:\ITI\courses\16-Visual CS.Net\CS_Labs\git\WPF\Lab02\calculator\obj\Debug\net5.0-windows\calculator.csproj.CoreCompileInputs.cache
+D:\ITI\courses\16-Visual CS.Net\CS_Labs\git\WPF\Lab02\calculator\obj\Debug\net5.0-windows\calculator.dll
+D:\ITI\courses\16-Visual CS.Net\CS_Labs\git\WPF\Lab02\calculator\obj\Debug\net5.0-windows\ref\calculator.dll
+D:\ITI\courses\16-Visual CS.Net\CS_Labs\git\WPF\Lab02\calculator\obj\Debug\net5.0-windows\calculator.pdb
+D:\ITI\courses\16-Visual CS.Net\CS_Labs\git\WPF\Lab02\calculator\obj\Debug\net5.0-windows\calculator.genruntimeconfig.cache

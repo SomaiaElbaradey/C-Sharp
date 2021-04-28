@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\ITI\\courses\\27-WPF\\Labs\\Lab02\\calculator\\calculator.csproj": {}
+    "D:\\ITI\\courses\\16-Visual CS.Net\\CS_Labs\\git\\WPF\\Lab02\\calculator\\calculator.csproj": {}
   },
   "projects": {
-    "D:\\ITI\\courses\\27-WPF\\Labs\\Lab02\\calculator\\calculator.csproj": {
+    "D:\\ITI\\courses\\16-Visual CS.Net\\CS_Labs\\git\\WPF\\Lab02\\calculator\\calculator.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\ITI\\courses\\27-WPF\\Labs\\Lab02\\calculator\\calculator.csproj",
+        "projectUniqueName": "D:\\ITI\\courses\\16-Visual CS.Net\\CS_Labs\\git\\WPF\\Lab02\\calculator\\calculator.csproj",
         "projectName": "calculator",
-        "projectPath": "D:\\ITI\\courses\\27-WPF\\Labs\\Lab02\\calculator\\calculator.csproj",
+        "projectPath": "D:\\ITI\\courses\\16-Visual CS.Net\\CS_Labs\\git\\WPF\\Lab02\\calculator\\calculator.csproj",
         "packagesPath": "C:\\Users\\Somaya\\.nuget\\packages\\",
-        "outputPath": "D:\\ITI\\courses\\27-WPF\\Labs\\Lab02\\calculator\\obj\\",
+        "outputPath": "D:\\ITI\\courses\\16-Visual CS.Net\\CS_Labs\\git\\WPF\\Lab02\\calculator\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Somaya\\AppData\\Roaming\\NuGet\\NuGet.Config",

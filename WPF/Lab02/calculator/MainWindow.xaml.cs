@@ -27,11 +27,18 @@ namespace calculator
         }
         string operation;
         double firstNumber;
-        private void clear_Click(object sender, RoutedEventArgs e)
+        double Result = 0;
+        private void clearClac()
         {
             result.Text = "";
+            operation = null;
+            firstNumber = 0;
+            Result = 0;
         }
-
+        private void clear_Click(object sender, RoutedEventArgs e)
+        {
+            clearClac();
+        }
         private void plus_minus_Click(object sender, RoutedEventArgs e)
         {
             double outValue = double.TryParse(result.Text, out outValue) ? outValue * -1 : 0;
@@ -43,9 +50,7 @@ namespace calculator
         private void equal_Click(object sender, RoutedEventArgs e)
         {
             double secondNumber;
-            double Result = 0;
-
-            secondNumber = Convert.ToDouble(result.Text);
+            secondNumber = double.TryParse(result.Text, out secondNumber) ? secondNumber : 0;
 
             switch (operation)
             {
@@ -79,24 +84,37 @@ namespace calculator
                     break;
             }
         }
-
         private void dot_Click(object sender, RoutedEventArgs e)
         {
-            result.Text += ((sender as Button).Content.ToString());
+            if (result.Text.Contains(".") == false)
+                result.Text += ((sender as Button).Content.ToString());
         }
-
         private void number_Click(object sender, RoutedEventArgs e)
         {
-            result.Text += ((sender as Button).Content.ToString());
+            if (result.Text == "Cannot divide by zero")
+            {
+                clearClac();
+                result.Text += ((sender as Button).Content.ToString());
+            }
+            else if (Result == 0)
+                result.Text += ((sender as Button).Content.ToString());
+            else
+            {
+                clearClac();
+                result.Text += ((sender as Button).Content.ToString());
+            }
         }
-
         private void operator_Click(object sender, RoutedEventArgs e)
         {
-            firstNumber = double.TryParse(result.Text, out firstNumber) ? firstNumber : 0;
-            if(((sender as Button).Content.ToString()) == "x")
-                operation = "*";
-            operation = (sender as Button).Content.ToString();
-            result.Text = "";
+            if (operation == null)
+            {
+                firstNumber = double.TryParse(result.Text, out firstNumber) ? firstNumber : 0;
+                if (((sender as Button).Content.ToString()) == "x")
+                    operation = "*";
+                else
+                    operation = (sender as Button).Content.ToString();
+                result.Text = "";
+            }
         }
     }
 }

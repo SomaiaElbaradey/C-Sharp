@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\ITI\\courses\\27-WPF\\Labs\\Lab02\\ClickButton\\ClickButton.csproj",
+      "projectUniqueName": "D:\\ITI\\courses\\16-Visual CS.Net\\CS_Labs\\git\\WPF\\Lab02\\ClickButton\\ClickButton.csproj",
       "projectName": "ClickButton",
-      "projectPath": "D:\\ITI\\courses\\27-WPF\\Labs\\Lab02\\ClickButton\\ClickButton.csproj",
+      "projectPath": "D:\\ITI\\courses\\16-Visual CS.Net\\CS_Labs\\git\\WPF\\Lab02\\ClickButton\\ClickButton.csproj",
       "packagesPath": "C:\\Users\\Somaya\\.nuget\\packages\\",
-      "outputPath": "D:\\ITI\\courses\\27-WPF\\Labs\\Lab02\\ClickButton\\obj\\",
+      "outputPath": "D:\\ITI\\courses\\16-Visual CS.Net\\CS_Labs\\git\\WPF\\Lab02\\ClickButton\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Somaya\\AppData\\Roaming\\NuGet\\NuGet.Config",
