@@ -1,0 +1,111 @@
+﻿<Window x:Class="editor.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:editor"
+        mc:Ignorable="d"
+        Title="Editor" Height="450" Width="690">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="20"></ColumnDefinition>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+            <ColumnDefinition Width="20"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="20"></RowDefinition>
+            <RowDefinition Height="109"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="20"></RowDefinition>
+        </Grid.RowDefinitions>
+        <WrapPanel Grid.Row="1" Grid.Column="1" Margin="25">
+            <ComboBox Name="font" Margin="10" Width="50" 
+                       Height="30">
+                <ItemsControl.Items >
+                    <ComboBoxItem IsSelected="True">12</ComboBoxItem>
+                    <ComboBoxItem>16</ComboBoxItem>
+                    <ComboBoxItem>20</ComboBoxItem>
+                    <ComboBoxItem>25</ComboBoxItem>
+                    <ComboBoxItem>40</ComboBoxItem>
+                    <ComboBoxItem>50</ComboBoxItem>
+                    <ComboBoxItem>60</ComboBoxItem>
+                    <ComboBoxItem>65</ComboBoxItem>
+                </ItemsControl.Items>
+            </ComboBox>
+
+            <ComboBox Name="color" Margin="10" Width="80">
+                <ItemsControl.Items>
+                    <ComboBoxItem Foreground="Black" IsSelected="true">
+                        <StackPanel Orientation="Horizontal">
+                            <Rectangle Width="10" Height="10" Fill="Black" />
+                            <TextBlock Text="Black" FontWeight="Bold" 
+                                       Margin="5" />
+                        </StackPanel>
+                    </ComboBoxItem>
+                    <ComboBoxItem Foreground="Red">
+                        <StackPanel Orientation="Horizontal">
+                            <Rectangle Width="10" Height="10" Fill="Red" />
+                            <TextBlock Text="Red" FontWeight="DemiBold" 
+                                           Margin="5" />
+                        </StackPanel>
+                    </ComboBoxItem>
+                    <ComboBoxItem Foreground="Blue">
+                        <StackPanel Orientation="Horizontal">
+                            <Rectangle Width="10" Height="10" Fill="Blue" />
+                            <TextBlock Text="Blue" FontWeight="DemiBold" 
+                                           Margin="5" />
+                        </StackPanel>
+                    </ComboBoxItem>
+                    <ComboBoxItem Foreground="Yellow">
+                        <StackPanel Orientation="Horizontal">
+                            <Rectangle Width="10" Height="10" Fill="Yellow" />
+                            <TextBlock Text="Yellow" FontWeight="DemiBold" 
+                                           Margin="5" />
+                        </StackPanel>
+                    </ComboBoxItem>
+                    <ComboBoxItem Foreground="Gray">
+                        <StackPanel Orientation="Horizontal">
+                            <Rectangle Width="10" Height="10" Fill="Gray" />
+                            <TextBlock Text="Gray" FontWeight="DemiBold"
+                                           Margin="5" />
+                        </StackPanel>
+                    </ComboBoxItem>
+                    <ComboBoxItem Foreground="Brown">
+                        <StackPanel Orientation="Horizontal">
+                            <Rectangle Width="10" Height="10" Fill="Brown" />
+                            <TextBlock Text="Brown" FontWeight="DemiBold" 
+                                           Margin="5" />
+                        </StackPanel>
+                    </ComboBoxItem>
+                </ItemsControl.Items>
+            </ComboBox>
+
+            <ComboBox Name="alignment" Margin="10" Height="30">
+                <ItemsControl.Items>
+                    <ComboBoxItem >Center</ComboBoxItem>
+                    <ComboBoxItem IsSelected="True">Left</ComboBoxItem>
+                    <ComboBoxItem >Right</ComboBoxItem>
+                    <ComboBoxItem >Justify</ComboBoxItem>
+                </ItemsControl.Items>
+            </ComboBox>
+            <CheckBox Name="enableCB" Content="Enable" Margin="10" />
+        </WrapPanel>
+        
+        <StackPanel Grid.Row="2" Grid.Column="1">
+            <TextBox 
+            AcceptsReturn="True" 
+            TextWrapping="Wrap" 
+            Height="200" 
+            BorderBrush="Blue" 
+            BorderThickness="3" 
+            FontSize="{Binding ElementName=font, 
+                Path=SelectedItem.Content}" 
+            Foreground="{Binding ElementName=color, 
+                Path=SelectedItem.Foreground}" 
+            TextAlignment="{Binding ElementName=alignment, 
+                Path=SelectedItem.Content}" 
+            IsEnabled="{Binding ElementName=enableCB, Path=IsChecked}" 
+        />
+        </StackPanel>
+    </Grid>
+</Window>
