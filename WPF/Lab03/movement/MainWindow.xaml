@@ -8,8 +8,12 @@
         Title="MainWindow" Height="450" Width="800">
     <Grid>
         <Canvas>
+            <Rectangle Width='20' Height="150" Canvas.Left="108" 
+                       Canvas.Top="129" Fill="Firebrick"></Rectangle>
+            <Ellipse Width="50" Height="50" Fill="#FF3D2020"
+                     Canvas.Left="93" Canvas.Top="97"></Ellipse>
             <Ellipse Width="49" Height="49" 
-                     Canvas.Left="143" Canvas.Top="230"
+                     Canvas.Left="128" Canvas.Top="230"
                      RenderTransformOrigin="0.5,0.5"
                      >
                 <Ellipse.Fill>
@@ -24,8 +28,8 @@
                             <Storyboard>
                                 <DoubleAnimation 
                                     Storyboard.TargetProperty="(Canvas.Left)"
-                                    From="142"
-                                     To="532"
+                                    From="128"
+                                     To="599"
                                     Duration="0:0:1"
                                     AutoReverse="True">
                                 </DoubleAnimation>
@@ -33,10 +37,11 @@
                         </BeginStoryboard>
                     </EventTrigger>
                 </Ellipse.Triggers>
-                <!--<Ellipse.RenderTransform>
-                    <RotateTransform Angle="25" />
-                </Ellipse.RenderTransform>-->
             </Ellipse>
+            <Rectangle Width='20' Height="150" Canvas.Left="652" 
+                Canvas.Top="142" Fill="Firebrick"/>
+            <Ellipse Width="50" Height="50" Fill="#FF3D2020"
+                Canvas.Left="637" Canvas.Top="110"/>
         </Canvas>
     </Grid>
 </Window>
