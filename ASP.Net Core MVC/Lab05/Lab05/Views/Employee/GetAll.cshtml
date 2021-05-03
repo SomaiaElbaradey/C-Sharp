@@ -1,0 +1,53 @@
+﻿@model IEnumerable<Lab05.Models.Employee>
+
+<div class="text-center col-12 section-title">
+    <h3><span> All </span>Employees</h3>
+</div>
+
+<table class="table table-hover table-striped text-center table-light">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Department.DeptName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.FName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Salary)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Email)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Address)
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Department.DeptName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.FName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Salary)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Email)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Address)
+            </td>
+            <td>
+                @Ajax.ActionLink("Edit", "Edit", routeValues: new { id = item.Id }, ajaxOptions: new AjaxOptions { HttpMethod = "Get", UpdateTargetId = "update", InsertionMode = InsertionMode.Replace, OnSuccess = "CloseEditModal()" }) |
+                @Ajax.ActionLink("Details", "Details", routeValues: new { id = item.Id }, ajaxOptions: new AjaxOptions { HttpMethod = "Get", UpdateTargetId = "details", InsertionMode = InsertionMode.Replace, OnSuccess = "CloseDetailModal()" }) |
+                @Ajax.ActionLink("Delete", "Delete", routeValues: new { id = item.Id }, ajaxOptions: new AjaxOptions { HttpMethod = "Get", UpdateTargetId = "allEmps", InsertionMode = InsertionMode.Replace }, htmlAttributes: new { onclick = "return confirm('are you sure you want to delete this employee?!')" })
+            </td>
+        </tr>
+    }
+
+</table>

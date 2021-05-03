@@ -1,0 +1,87 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+@*get all employees*@
+<div id="allEmps" class="container git">
+    @Html.Action("GetAll")
+
+</div>
+<button type="submit" class="btn pt-2 butto text-center" data-toggle="modal" data-target="#createmodal">
+    Create New
+</button>
+
+@*Add new Employee*@
+<div class="modal fade" id="createmodal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <div class="text-center col-12 section-title">
+                    <h3>Add<span> New </span>Employee</h3>
+                </div>
+            </div>
+            <div class="modal-body">
+                @Html.Partial("Create")
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+@*update Employee data*@
+<div class="modal fade " id="updatemodal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <div class="text-center col-12 section">
+                    <h3>Update<span> Employee </span>Data</h3>
+                </div>
+            </div>
+            <div class="modal-body" id="update">
+                @Html.Partial("Edit")
+            </div>
+        </div>
+    </div>
+</div>
+
+
+@*Employee data*@
+<div class="modal fade" id="detailsmodal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <div class="text-center col-12 section-title">
+                    <h3>About<span> Employee </span></h3>
+                </div>
+            </div>
+            <div class="modal-body" id="details">
+                @Html.Partial("Details")
+            </div>
+        </div>
+    </div>
+</div>
+
+
+@section Scripts
+{
+    <script>
+        function CloseCreateModal() {
+            $("#createmodal").modal("hide");
+            $('#name').val('');
+            $('#salary').val('');
+            $('#email').val('');
+            $('#address').val('');
+        }
+
+        function CloseEditModal() {
+            $("#updatemodal").modal("toggle");
+        }
+
+        function CloseDetailModal() {
+            $("#detailsmodal").modal("toggle");
+        }
+
+    </script>
+}

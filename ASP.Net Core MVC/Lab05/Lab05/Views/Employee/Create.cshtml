@@ -1,0 +1,54 @@
+﻿@model Lab05.Models.Employee
+
+@using (Ajax.BeginForm("Create", "Employee", new AjaxOptions { HttpMethod = "Post", UpdateTargetId = "allEmps", InsertionMode = InsertionMode.Replace, OnSuccess = "CloseCreateModal()" }))
+{
+    @Html.AntiForgeryToken()
+
+    <div class="form-horizontal mt-5 git-form">
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+        <div class="form-group">
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.FName, new { htmlAttributes = new { @class = "form-control", placeholder = "Name", id = "name" } })
+                @Html.ValidationMessageFor(model => model.FName, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.Salary, new { htmlAttributes = new { @class = "form-control", placeholder = "Salary", id = "salary" } })
+                @Html.ValidationMessageFor(model => model.Salary, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.Email, new { htmlAttributes = new { @class = "form-control", placeholder = "Email", id = "email" } })
+                @Html.ValidationMessageFor(model => model.Email, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.Address, new { htmlAttributes = new { @class = "form-control", placeholder = "Address", id = "address" } })
+                @Html.ValidationMessageFor(model => model.Address, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-md-10">
+                @Html.DropDownListFor(emp => emp.DeptId, ViewBag.departments as SelectList, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.DeptId, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="Create" class="btn butto" />
+            </div>
+        </div>
+    </div>
+}
+
+<div>
+    @Html.ActionLink("Home", "Index")
+</div>

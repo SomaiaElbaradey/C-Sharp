@@ -1,0 +1,51 @@
+﻿@model Lab05.Models.Employee
+
+<div>
+    <h4>Employee</h4>
+    <hr />
+    <dl class="dl-horizontal git-form">
+        <dt class="form-group">
+            @Html.DisplayNameFor(model => model.Department.DeptName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Department.DeptName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.FName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.FName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Salary)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Salary)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Email)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Email)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Address)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Address)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Home", "Index")
+</p>

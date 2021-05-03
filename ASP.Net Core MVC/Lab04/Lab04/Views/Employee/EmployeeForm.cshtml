@@ -1,0 +1,79 @@
+﻿@model Employee
+
+@using (Html.BeginForm())
+{
+    if (Model != null)
+    {
+        @Html.HiddenFor(emp => emp.Id)
+    }
+
+    <div class="row mt-5 git-form">
+        <div class="col-md-4 form-group">
+            @Html.EditorFor(emp => emp.FName, additionalViewData: new { htmlAttributes = new { @class = "form-control", placeholder = "Name" } })
+            @Html.ValidationMessageFor(emp => emp.FName, "", htmlAttributes: new { @class = "text-danger" })
+        </div>
+
+        <div class="col-md-4 form-group">
+            @Html.EditorFor(emp => emp.Email, additionalViewData: new { htmlAttributes = new { @class = "form-control", placeholder = "Email" } })
+            @Html.ValidationMessageFor(emp => emp.Email, "", htmlAttributes: new { @class = "text-danger" })
+        </div>
+
+        @*@if (Model == null)
+            {*@
+        <div class="col-md-4 form-group">
+            @Html.EditorFor(emp => emp.Password, additionalViewData: new { htmlAttributes = new { @class = "form-control", placeholder = "Password" } })
+            @Html.ValidationMessageFor(emp => emp.Password, "", htmlAttributes: new { @class = "text-danger" })
+        </div>
+
+        <div class="col-md-4 form-group">
+            @Html.EditorFor(emp => emp.ConfirmedPass, additionalViewData: new { htmlAttributes = new { @class = "form-control", placeholder = "Confirmed Password" } })
+            @Html.ValidationMessageFor(emp => emp.ConfirmedPass, "", htmlAttributes: new { @class = "text-danger" })
+        </div>
+        @*}  *@
+
+        <div class="col-md-4 form-group">
+            @Html.EditorFor(emp => emp.Age, additionalViewData: new { htmlAttributes = new { @class = "form-control", placeholder = "Age" } })
+            @Html.ValidationMessageFor(emp => emp.Age, "", htmlAttributes: new { @class = "text-danger" })
+        </div>
+
+        <div class="col-md-4 form-group">
+            @Html.EditorFor(emp => emp.Salary, additionalViewData: new { htmlAttributes = new { @class = "form-control", placeholder = "Salary" } })
+            @Html.ValidationMessageFor(emp => emp.Salary, "", htmlAttributes: new { @class = "text-danger" })
+        </div>
+
+        <div class="col-md-4 form-group">
+            @Html.EditorFor(emp => emp.BirthDate, additionalViewData: new { htmlAttributes = new { @class = "form-control", placeholder = "Birthdate" } })
+            @Html.ValidationMessageFor(emp => emp.BirthDate, "", htmlAttributes: new { @class = "text-danger" })
+        </div>
+
+        <div class="col-md-4 form-group">
+            @Html.EditorFor(emp => emp.HireDate, additionalViewData: new { htmlAttributes = new { @class = "form-control", placeholder = "Hire Date" } })
+            @Html.ValidationMessageFor(emp => emp.HireDate, "", htmlAttributes: new { @class = "text-danger" })
+        </div>
+
+        <div class="col-md-4 form-group">
+            @Html.EditorFor(emp => emp.Url, additionalViewData: new { htmlAttributes = new { @class = "form-control", placeholder = "URL" } })
+            @Html.ValidationMessageFor(emp => emp.Url, "", htmlAttributes: new { @class = "text-danger" })
+        </div>
+
+        <div class="col-md-4 form-group">
+            @Html.EditorFor(emp => emp.Address, additionalViewData: new { htmlAttributes = new { @class = "form-control", placeholder = "Address" } })
+            @Html.ValidationMessageFor(emp => emp.Address, "", htmlAttributes: new { @class = "text-danger" })
+        </div>
+
+        <div class="col-md-4">
+            <div class="form-group">
+                @Html.DropDownListFor(emp => emp.DeptId, ViewBag.departments as SelectList, htmlAttributes: new { @class = "form-control" })
+                @Html.ValidationMessageFor(emp => emp.DeptId, "", htmlAttributes: new { @class = "text-danger" })
+            </div>
+        </div>
+        <div class="col-12">
+            @Html.ValidationSummary("", htmlAttributes: new { @class = "text-danger" })
+        </div>
+
+        <div class="col-12">
+            <button type="submit" class="btn btn-primary shadow btn-colord btn-theme">Submit</button>
+        </div>
+
+    </div>
+}

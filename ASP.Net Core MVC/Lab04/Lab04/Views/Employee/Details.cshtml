@@ -1,0 +1,54 @@
+﻿@model Employee
+@{
+    ViewBag.Title = "Details";
+}
+
+<div class="container git">
+    <div class="row mb-5">
+        <div class="text-center col-12 section-title">
+            <h3>About<span> @Model.FName </span></h3>
+        </div>
+    </div>
+    <div class="git-form">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="form-group">
+                    <p type="text" class="form-control">@Model.FName</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="form-group">
+                    <p type="email" class="form-control">@Model.Email</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="form-group">
+                    <p type="number" class="form-control">@Model.Age yo</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="form-group">
+                    <p type="number" class="form-control">@Model.Salary $</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="form-group">
+                    <p type="number" class="form-control">@Model.BirthDate</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="form-group">
+                    <p type="text" class="form-control">@Model.Department.DeptName</p>
+                </div>
+            </div>
+            <form class="git-form" method="get" action="/Employee/Index">
+                <div class="col-12">
+                    <button type="submit" class="btn btn-primary shadow btn-colord btn-theme">
+                        🠔 Home
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+</div>
