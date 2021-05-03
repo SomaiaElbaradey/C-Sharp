@@ -1,0 +1,24 @@
+﻿
+@{
+    ViewBag.Title = "UserView";
+    string user = "Somaia";
+}
+<!DOCTYPE html>
+<html>
+<head>
+    <title>User</title>
+</head>
+<body>
+    <h1>
+        HELLOO, @user!
+    </h1>
+    @if(user == "Somaia")
+            {
+                <h2>Admin User!</h2>
+            }
+            else
+            {
+                <h2>Guest!</h2>
+            }
+</body>
+</html>

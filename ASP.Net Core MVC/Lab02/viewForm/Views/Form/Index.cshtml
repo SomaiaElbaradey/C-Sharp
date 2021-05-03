@@ -1,0 +1,44 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+<div >
+    <section>
+        <div>
+            <form method="post" action="" enctype="multipart/form-data">
+                <div>
+                    <label for="id" class="form-label">Id:</label>
+                    <input type="text" name="id" class="form-control" />
+                </div>
+                <div>
+                    <label for="email" class="form-label">Name:</label>
+                    <input type="text" id="email" name="name" class="form-control">
+                </div>
+                <div>
+                    <label for="age" class="form-label">Age:</label>
+                    <input type="number" id="age" name="age" class="form-control">
+                </div>
+                <div>
+                    <label for="email" class="form-label">Email address:</label>
+                    <input type="email" id="email" name="email" class="form-control">
+                </div>
+                <div>
+                    <label for="sport" class="form-label">Sport:</label>
+                    <select name="sport[]" class="form-select" multiple="multiple">
+                        <option value="football">football</option>
+                        <option value="voleyball">voleyball</option>
+                        <option value="tennis">tennis</option>
+                    </select>
+                </div>
+
+                <div>
+                    file:
+                    <input type="file" name="myfile" class="form-control" />
+                </div>
+                <button type="submit">Submit</button>
+            </form>
+
+        </div>
+    </section>
+</div>

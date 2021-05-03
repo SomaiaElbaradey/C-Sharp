@@ -1,0 +1,46 @@
+﻿
+@{
+    ViewBag.Title = "Create";
+}
+
+<div class="container git">
+    <div class="row mb-5">
+        <div class="text-center col-12 section-title">
+            <h3>Add<span> New </span>Student</h3>
+        </div>
+    </div>
+    <form class="git-form" method="post" action="/student/create">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="form-group">
+                    <input type="text" class="form-control" name="name" placeholder="Student Name">
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="form-group">
+                    <input type="email" class="form-control" name="email" placeholder="Student Email">
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="form-group">
+                    <input type="number" class="form-control" name="age" placeholder="Student Age">
+                </div>
+            </div>
+            @*<div class="col-md-4">
+                <div class="form-group">
+                    <input type="text" class="form-control" name="DeptID" placeholder="Departemnt">
+                </div>
+            </div>*@
+            <div class="col-12">
+                <button type="submit" class="btn btn-primary shadow btn-colord btn-theme">
+                    <span>
+                        Add Student
+                    </span>
+                </button>
+            </div>
+        </div>
+    </form>
+
+    <a href="/student" class="btn "> 🠔 Home</a>
+
+</div>
