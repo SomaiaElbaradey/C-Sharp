@@ -1,0 +1,47 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <script src="Scripts/jquery-1.6.4.js"></script>
+    <script src="Scripts/jquery.signalR-2.4.2.js"></script>
+    <script>
+        $(function () {
+            name = prompt("enter your name");
+
+            //define connection
+            let connection = $.hubConnection();
+
+            //create proxy
+            proxy = connection.createHubProxy("chat");
+
+            //start connection
+            connection.start();
+            proxy.on("newMsg", function (name, message) {
+                $("ul").append("<li style=' border-color: #ccc; background-color: #ddd; border: 2px solid #dedede; border - radius: 5px; padding: 10px; margin: 10px 0;'>" + name + " : " + message + "</li>");
+            }
+            );
+
+        })
+        function sendMsg() {
+            proxy.invoke("sendMsg", name, $("#textMsg").val());
+        }
+    </script>
+</head>
+
+<body>
+    <div style="width:50%; margin:0 auto;">
+        <div style="margin-left:50px">
+            <input type="text" id="textMsg" style="border: 2px solid #dedede; background-color: #f1f1f1;
+                                           border-radius: 5px; padding: 10px; margin: 10px 0;" />
+            <input type="button" value="Send"
+                   style="background-color: #4CAF50; border: none; color: white; padding: 8px 16px; text-align: center;
+                    text-decoration: none; display: inline-block; font-size: 14px; margin: 2px 4px; cursor: pointer;"
+                   onclick="sendMsg()" />
+        </div>
+
+        <ul style="list-style:none;">
+        </ul>
+    </div>
+</body>
+</html>

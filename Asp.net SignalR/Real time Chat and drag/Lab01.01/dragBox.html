@@ -1,0 +1,43 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <script src="Scripts/jquery-1.6.4.js"></script>
+    <script src="Scripts/jquery.signalR-2.4.2.js"></script>
+    <script>
+        $(function () {
+            //define connection
+            let connection = $.hubConnection();
+
+            //create proxy
+            proxy = connection.createHubProxy("drag");
+
+            //start connection
+            connection.start();
+            proxy.on("newCoord", function (x, y) {
+                $("#mydiv").parent().css({ position: 'relative' });
+                $("#mydiv").css({ top: y, left: x, position: 'absolute' });
+            }
+            );
+        })
+        function sendCoord() {
+            event.preventDefault();
+            console.log(event.x);
+            proxy.invoke("SendCoord", event.x, event.y);
+        }
+    </script>
+</head>
+
+<body>
+    <div id="mydiv" style="position: absolute;
+        background-color: #87a7b3;
+        border: 1px solid #34656d;
+        text-align: center;
+        width: 150px;
+        height: 100px;
+    "
+         draggable="true" ondrag="sendCoord()">
+    </div>
+</body>
+</html>
