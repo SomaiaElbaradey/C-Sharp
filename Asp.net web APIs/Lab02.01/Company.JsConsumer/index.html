@@ -1,0 +1,282 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <script src="Scripts/jquery-3.6.0.min.js"></script>
+    <script src="Scripts/bootstrap.js"></script>
+    <link href="Content/bootstrap.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="container">
+        <div class="row m-5 ">
+            <form class="ml-5" id="empForm">
+                <div class="ml-4">
+                    <input type="button" class="form-control btn btn-secondary" onclick="AddModal()" value="Add Employee">
+                </div>
+            </form>
+        </div>
+
+        <!--table for showing employees data-->
+        <div class="row m-5">
+            <div class="col-lg-10 flex-column align-content-center">
+                <div class="col-10 justify-content-lg-around">
+                    <table class="ml-5 table table-striped " id="empTable">
+                        <tr class="rows">
+                            <th>ID</th>
+                            <th>Name</th>
+                            <th>Age</th>
+                            <th>Salary</th>
+                            <th>DeptId</th>
+                            <th></th>
+                            <th></th>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--modal for editing employe-->
+    <div class="modal fade" id="EditModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Edit Employee</h5>
+                </div>
+                <div class="modal-body">
+                    <form class="col-lg-8 mx-auto flex-column align-content-center" id="empForm">
+                        <div class="mb-3 row">
+                            <label for="Id" class="col-sm-2 col-form-label">ID</label>
+                            <div class="col-sm-10">
+                                <input type="text" class="form-control" id="id" name="id" disabled>
+                            </div>
+                        </div>
+                        <div class="mb-3 row">
+                            <label for="Name" class="col-sm-2 col-form-label">Name</label>
+                            <div class="col-sm-10">
+                                <input type="text" class="form-control" id="Name" name="name">
+                            </div>
+                        </div>
+                        <div class="mb-3 row">
+                            <label for="Age" class="col-sm-2 col-form-label">Age</label>
+                            <div class="col-sm-10">
+                                <input type="text" class="form-control" id="Age" name="age">
+                            </div>
+                        </div>
+                        <div class="mb-3 row">
+                            <label for="Salary" class="col-sm-2 col-form-label">Salary</label>
+                            <div class="col-sm-10">
+                                <input type="text" class="form-control" id="Salary" name="salary">
+                            </div>
+                        </div>
+
+                        <div class="mb-3 row">
+                            <label for="DeptId" class="col-sm-2 col-form-label">DeptId</label>
+                            <div class="col-sm-10">
+                                <input type="text" class="form-control" id="DeptId" name="deptId">
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" onclick="CloseModal()">Close</button>
+                    <button type="button" class="btn btn-primary" onclick="Update(); CloseModal()">Save</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--modal for adding employe-->
+    <div class="modal fade" id="AddModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Add Employee</h5>
+                </div>
+                <div class="modal-body">
+                    <form class="col-lg-8 mx-auto flex-column align-content-center" id="empForm">
+                        <div class="mb-3 row">
+                            <label for="Name" class="col-sm-2 col-form-label">Name</label>
+                            <div class="col-sm-10">
+                                <input type="text" class="form-control" id="Name" name="Name">
+                            </div>
+                        </div>
+                        <div class="mb-3 row">
+                            <label for="Age" class="col-sm-2 col-form-label">Age</label>
+                            <div class="col-sm-10">
+                                <input type="text" class="form-control" id="Age" name="Age">
+                            </div>
+                        </div>
+                        <div class="mb-3 row">
+                            <label for="Salary" class="col-sm-2 col-form-label">Salary</label>
+                            <div class="col-sm-10">
+                                <input type="text" class="form-control" id="Salary" name="Salary">
+                            </div>
+                        </div>
+                        <div class="mb-3 row">
+                            <label for="DeptId" class="col-sm-2 col-form-label">DeptId</label>
+                            <div class="col-sm-10">
+                                <input type="text" class="form-control" id="DeptId" name="DeptId">
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" onclick="CloseModal()">Close</button>
+                    <button type="button" class="btn btn-primary" onclick="Add(); CloseModal()">Add</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script>
+        //ajax call to get employees
+        function getAll() {
+            $.ajax(
+                {
+                    method: "Get",
+                    url: "http://localhost:1313/api/employee",
+                    success: function (data) {
+                        $.each(data, function (i) {
+                            $("#empTable").append(
+                                "<tr class='rows' > " +
+                                "<td id='I" + data[i].Id + "' > " + data[i].Id + "</td > " +
+                                "<td id='N" + data[i].Id + "'> " + data[i].Name + "</td>" +
+                                "<td id='A" + data[i].Id + "'> " + data[i].Age + "</td>" +
+                                "<td id='S" + data[i].Id + "'> " + data[i].Salary + "</td>" +
+                                "<td id='D" + data[i].Id + "'> " + data[i].DeptId + "</td>" +
+                                "<td><input type='button' class='form - control update' onclick='EditModal(event.target)' value='Update' id=" + data[i].Id + "></td>" +
+                                " <td> <input type='button' class='form - control' onclick='Delete(event.target)' value='Delete' id=" + data[i].Id + "></td> </tr > "
+                            );
+                        });
+                    },
+                    error: function (error) {
+                        alert(error.statusCode())
+                    }
+                })
+        }
+
+        $(function () {
+            getAll();
+        })
+
+        //ajax call to update employee info
+        function Update() {
+            let id = $("[name='id']").val();
+            var emp =
+            {
+                Id: $("[name='id']").val(),
+                Name: $("[name='name']").val(),
+                Age: $("[name='age']").val(),
+                Salary: $("[name='salary']").val(),
+                DeptId: $("[name='deptId']").val()
+            }
+            $.ajax(
+                {
+                    method: "Put",
+                    url: "http://localhost:1313/api/employee/" + id,
+                    data: emp,
+                    success: function (data) {
+                        $(`#I${id}`).text(data.Id);
+                        $(`#N${id}`).text(data.Name);
+                        $(`#A${id}`).text(data.Age);
+                        $(`#S${id}`).text(data.Salary);
+                        $(`#D${id}`).text(data.DeptId);
+                        CloseModal();
+                    },
+                    error: function (error) {
+                        alert(error.responseText)
+                    }
+                })
+        }
+
+        //ajax call to add employee
+        function Add() {
+            var emp =
+            {
+                Name: $("[name='Name']").val(),
+                Age: $("[name='Age']").val(),
+                Salary: $("[name='Salary']").val(),
+                DeptId: $("[name='DeptId']").val()
+            }
+            $.ajax(
+                {
+                    method: "Post",
+                    url: "http://localhost:1313/api/employee",
+                    data: emp,
+                    success: function (data) {
+                        $("#empTable").append(
+                            "<tr><td> " + data.Id + "</td>" +
+                            "<td> " + data.Name + "</td>" +
+                            "<td> " + data.Age + "</td>" +
+                            "<td> " + data.Salary + "</td>" +
+                            "<td> " + data.DeptId + "</td>" +
+                            " <td> <input type='button' class='form - control' onclick='EditModal(event.target)' value='Update' id=" + data.Id + "></td>" +
+                            " <td> <input type='button' class='form - control' onclick='Delete(event.target)' value='Delete' id=" + data.Id + "></td> </tr > "
+                        );
+                        $("#empForm").trigger("reset");
+                        $("#AddModal").modal('hide');
+                    },
+                    error: function (error) {
+                        alert(error.responseText)
+                    }
+                }
+            )
+        }
+
+        //ajax call to add employee
+        function Delete(target) {
+            if (confirm("Are you sure you wanna delete this employee?")) {
+                let id = target.id;
+                $.ajax(
+                    {
+                        method: "Delete",
+                        url: "http://localhost:1313/api/employee/" + id,
+                        success: function (data) {
+                            target.closest('tr').remove();
+                        },
+                        error: function (error) {
+                            alert(error.responseText)
+                        }
+                    })
+            }
+        }
+
+        //ajax call to get one employee
+        function GetById(id) {
+            $.ajax(
+                {
+                    method: "Get",
+                    url: "http://localhost:1313/api/employee/" + id,
+                    success: function (data) {
+                        $("[name='id']").attr("value", data.Id);
+                        $("[name='name']").attr("value", data.Name);
+                        $("[name='age']").attr("value", data.Age);
+                        $("[name='salary']").attr("value", data.Salary);
+                        $("[name='deptId']").attr("value", data.DeptId);
+                    },
+                    error: function (error) {
+                        alert(error.responseText)
+                    }
+                })
+        }
+
+        function EditModal(target) {
+            let id = target.id;
+            $("#EditModal").modal('show');
+            GetById(id);
+        }
+
+        function CloseModal() {
+            $("#EditModal").modal('hide');
+        }
+
+        function AddModal() {
+            $("#AddModal").modal('show');
+        }
+
+    </script>
+</body>
+</html>
