@@ -1,0 +1,42 @@
+﻿@model Lab02._00.Models.Course
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Course</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Crs_Name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Crs_Name)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Crs_Duration)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Crs_Duration)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Top_Id)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Top_Id)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.Crs_Id }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>
