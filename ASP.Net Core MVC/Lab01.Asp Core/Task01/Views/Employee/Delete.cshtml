@@ -1,0 +1,32 @@
+﻿@model Task01.Models.Employee
+
+@{
+    ViewData["Title"] = "Delete";
+}
+
+<h1>Delete</h1>
+
+<h3>Are you sure you want to delete this Employee?</h3>
+<div>
+    <hr />
+    <ul>
+        <li>
+            @Html.DisplayNameFor(model => model.Name) : @Html.DisplayFor(model => model.Name)
+        </li>
+        <li>
+            @Html.DisplayNameFor(model => model.Age) : @Html.DisplayFor(model => model.Age)
+        </li>
+        <li>
+            @Html.DisplayNameFor(model => model.Salary) : @Html.DisplayFor(model => model.Salary)
+        </li>
+        <li>
+            @Html.DisplayNameFor(model => model.Department) : @Html.DisplayFor(model => model.Department.DeptId)
+        </li>
+    </ul>
+
+    <form asp-action="Delete">
+        <input type="hidden" asp-for="Id" />
+        <input type="submit" value="Delete" class="btn btn-danger" /> <br /><br />
+        <a asp-action="Index">Back to List</a>
+    </form>
+</div>
