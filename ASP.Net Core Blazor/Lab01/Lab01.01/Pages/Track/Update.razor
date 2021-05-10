@@ -1,0 +1,37 @@
+﻿@page  "/track/update/{TrackId:int}"
+
+<h3 class="card-title">Track Edit</h3>
+
+
+<EditForm Model="@editedTrack">
+
+    <div class="form-group row">
+        <label for="Name" class="col-form-label">name: </label>
+        <InputText id="Name" class="form-control" @bind-Value="@editedTrack.Name" placeholder="Enter name"></InputText>
+    </div>
+
+    <div class="form-group row">
+        <label for="Description" class="col-form-label">Description : </label>
+        <InputText id="Description" class="form-control" @bind-Value="@editedTrack.Description" placeholder="Enter Description"></InputText>
+    </div>
+
+
+    <button type="submit" class="btn btn-primary">Save</button>
+
+</EditForm>
+
+@code{
+
+    [Parameter]
+    public int TrackId { get; set; }
+
+    sharedLibarary.Track editedTrack;
+
+    protected override Task OnInitializedAsync()
+    {
+        editedTrack = sharedLibarary.ITIContext.tracks.FirstOrDefault(e => e.Id == TrackId);
+
+        return base.OnInitializedAsync();
+    }
+
+}

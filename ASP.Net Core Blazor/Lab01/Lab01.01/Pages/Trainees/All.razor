@@ -1,0 +1,36 @@
+﻿@page "/trainees/all"
+
+<h3>All Trainees</h3>
+
+<a class="btn btn-secondary mb-3" href="@($"trainee/create")"> Add new Trainee</a>
+<table class="table table-striped">
+    <tr>
+        <th>Id</th>
+        <th>Name</th>
+        <th>Gender</th>
+        <th>Mobile No.</th>
+        <th>Birthdate</th>
+        <th>Is Graduated</th>
+        <th></th>
+    </tr>
+    @foreach (var trainee in trainees)
+    {
+        <tr>
+            <td>@trainee.Id</td>
+            <td>@trainee.Name</td>
+            <td>@trainee.Gender</td>
+            <td>@trainee.PhoneNumber</td>
+            <td>@trainee.BirthDate</td>
+            <td>@trainee.IsGraduated</td>
+            <td>
+                <a href="@($"trainee/details/{trainee.Id}")" class="btn btn-primary mx-2"> Details </a> |
+                <a href="@($"trainee/update/{trainee.Id}")" class="btn btn-dark mx-2"> Update </a>
+            </td>
+        </tr>
+    }
+</table>
+
+
+@code {
+    List<sharedLibarary.Trainee> trainees = sharedLibarary.ITIContext.trainees;
+}

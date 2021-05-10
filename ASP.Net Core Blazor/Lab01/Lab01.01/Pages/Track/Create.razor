@@ -1,0 +1,40 @@
+﻿@page  "/track/create"
+
+
+<h3 class="card-title">Create Track</h3>
+
+<EditForm Model="@track" OnValidSubmit="@HandleValidSubmit">
+
+    <DataAnnotationsValidator />
+
+    <ValidationSummary></ValidationSummary>
+
+    <div class="form-group row">
+        <label for="Id" class="col-form-label">Id: </label>
+        <InputNumber id="Id" class="form-control" @bind-Value="@track.Id" placeholder="Track Id"></InputNumber>
+    </div>
+
+    <div class="form-group row">
+        <label for="Name" class="col-form-label">name: </label>
+        <InputText id="Name" class="form-control" @bind-Value="@track.Name" placeholder="Track name"></InputText>
+    </div>
+
+    <div class="form-group row">
+        <label for="Description" class="col-form-label">Description : </label>
+        <InputText id="Description" class="form-control" @bind-Value="@track.Description" placeholder="Track description"></InputText>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Create</button>
+
+</EditForm>
+
+@code {
+
+    sharedLibarary.Track track = new sharedLibarary.Track();
+
+    private void HandleValidSubmit()
+    {
+        sharedLibarary.ITIContext.tracks.Add(track);
+    }
+
+}
