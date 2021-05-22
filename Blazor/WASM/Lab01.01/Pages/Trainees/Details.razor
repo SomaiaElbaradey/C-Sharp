@@ -1,0 +1,61 @@
+﻿@page "/trainee/details/{TraineeId:int}"
+
+<h3 class="card-title"> Details about @trainee.Name </h3>
+
+<div class="form-group row">
+    <label class="col-form-label"> Trainee Id</label>
+    <label class="form-control"> @trainee.Id </label>
+</div>
+
+<div class="form-group row">
+    <label class="col-form-label"> Name </label>
+    <label class="form-control"> @trainee.Name </label>
+</div>
+
+<div class="form-group row">
+    <label class="col-form-label"> Birthdate </label>
+    <label class="form-control"> @trainee.BirthDate.ToShortDateString() </label>
+</div>
+
+<div class="form-group row">
+    <label class="col-form-label"> Email </label>
+    <label class="form-control"> @trainee.Email </label>
+</div>
+
+<div class="form-group row">
+    <label class="col-form-label"> Mobile Number </label>
+    <label class="form-control"> @trainee.PhoneNumber </label>
+</div>
+
+<div class="form-group row">
+    <label class="col-form-label"> Gender </label>
+    <label class="form-control"> @trainee.Gender </label>
+</div>
+
+<div class="form-group row">
+    <label class="col-form-label"> Is Graduated </label>
+    <label class="form-control"> @trainee.IsGraduated </label>
+</div>
+
+<div class="form-group row">
+    <label class="col-form-label"> Track Id: </label>
+    <label class="form-control"> @trainee.TrackId </label>
+</div>
+
+
+@code {
+
+    [Parameter]
+    public int TraineeId { get; set; }
+
+    sharedLibarary.Trainee trainee;
+
+    protected override Task OnInitializedAsync()
+    {
+        trainee = sharedLibarary.ITIContext.trainees.FirstOrDefault(e => e.Id == TraineeId);
+
+        return base.OnInitializedAsync();
+    }
+
+
+}

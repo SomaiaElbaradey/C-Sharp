@@ -1,0 +1,29 @@
+﻿@page "/tracks/all"
+
+<h3>All Tracks</h3>
+
+<a class="btn btn-secondary mb-3" href="@($"track/create")"> Add new Track</a>
+<table class="table table-striped">
+    <tr>
+        <th>Id</th>
+        <th>Name</th>
+        <th>Desciption</th>
+        <th></th>
+    </tr>
+    @foreach (var track in tracks)
+    {
+        <tr>
+            <td>@track.Id</td>
+            <td>@track.Name</td>
+            <td>@track.Description</td>
+            <td>
+                <a href="@($"track/details/{track.Id}")" class="btn btn-primary mx-2"> Details </a> |
+                <a href="@($"track/update/{track.Id}")" class="btn btn-dark mx-2"> Update </a>
+            </td>
+        </tr>
+    }
+</table>
+
+@code {
+    List<sharedLibarary.Track> tracks = sharedLibarary.ITIContext.tracks;
+}

@@ -1,0 +1,12 @@
+D:\ITI\courses\33- Blazor\Labs\Lab01\sharedLibarary\bin\Debug\net5.0\sharedLibarary.deps.json
+D:\ITI\courses\33- Blazor\Labs\Lab01\sharedLibarary\bin\Debug\net5.0\sharedLibarary.dll
+D:\ITI\courses\33- Blazor\Labs\Lab01\sharedLibarary\bin\Debug\net5.0\ref\sharedLibarary.dll
+D:\ITI\courses\33- Blazor\Labs\Lab01\sharedLibarary\bin\Debug\net5.0\sharedLibarary.pdb
+D:\ITI\courses\33- Blazor\Labs\Lab01\sharedLibarary\obj\Debug\net5.0\sharedLibarary.csprojAssemblyReference.cache
+D:\ITI\courses\33- Blazor\Labs\Lab01\sharedLibarary\obj\Debug\net5.0\sharedLibarary.GeneratedMSBuildEditorConfig.editorconfig
+D:\ITI\courses\33- Blazor\Labs\Lab01\sharedLibarary\obj\Debug\net5.0\sharedLibarary.AssemblyInfoInputs.cache
+D:\ITI\courses\33- Blazor\Labs\Lab01\sharedLibarary\obj\Debug\net5.0\sharedLibarary.AssemblyInfo.cs
+D:\ITI\courses\33- Blazor\Labs\Lab01\sharedLibarary\obj\Debug\net5.0\sharedLibarary.csproj.CoreCompileInputs.cache
+D:\ITI\courses\33- Blazor\Labs\Lab01\sharedLibarary\obj\Debug\net5.0\sharedLibarary.dll
+D:\ITI\courses\33- Blazor\Labs\Lab01\sharedLibarary\obj\Debug\net5.0\ref\sharedLibarary.dll
+D:\ITI\courses\33- Blazor\Labs\Lab01\sharedLibarary\obj\Debug\net5.0\sharedLibarary.pdb

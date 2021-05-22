@@ -1,0 +1,33 @@
+﻿@page "/track/details/{trackId:int}"
+
+<h3 class="card-title">Track Details for @track.Name </h3>
+
+<div class="form-group row">
+    <label class="col-form-label"> Track Id</label>
+    <label class="form-control"> @track.Id </label>
+</div>
+
+<div class="form-group row">
+    <label class="col-form-label"> Name </label>
+    <label class="form-control"> @track.Name </label>
+</div>
+
+<div class="form-group row">
+    <label class="col-form-label"> Description </label>
+    <label class="form-control"> @track.Description </label>
+</div>
+
+@code {
+
+    [Parameter]
+    public int trackId { get; set; }
+
+    sharedLibarary.Track track;
+
+    protected override Task OnInitializedAsync()
+    {
+        track = sharedLibarary.ITIContext.tracks.FirstOrDefault(e => e.Id == trackId);
+
+        return base.OnInitializedAsync();
+    }
+}
